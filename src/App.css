@@ -190,7 +190,7 @@ header link .nav-color {
   color: rgb(66, 66, 66);
   text-decoration: none;
   margin: 0;
-  font-size: 24px;
+  font-size: 24px !important;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
