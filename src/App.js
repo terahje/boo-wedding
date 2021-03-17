@@ -11,22 +11,41 @@ class App extends Component {
         <Layout>
             <Header className="mdl-layout__header mdl-layout__header--transparent" title=" " scroll>
                 <Navigation> 
-                    <Link to="/ourStory" className="nav-color">Our Story</Link>
+                    {/* updated links to not have people go off landing page until site is built */}
+                    <Link to="/" className="nav-color">Our Story</Link>
+                    <Link to="/" className="nav-color">Gallery</Link>
+                    <Link to="/" className="nav-color">Festivities</Link>
+                    <Link to="/" className="nav-color">Venue</Link>
+                    <Link to="/" className="nav-color">Registry</Link>
+                    <Link to="/" className="nav-color">To Do/ To Eat</Link>  
+
+                    {/* old links to restore */}
+                    {/* <Link to="/ourStory" className="nav-color">Our Story</Link>
                     <Link to="/gallery" className="nav-color">Gallery</Link>
                     <Link to="/festivities" className="nav-color">Festivities</Link>
                     <Link to="/venue" className="nav-color">Venue</Link>
                     <Link to="/registry" className="nav-color">Registry</Link>
-                    <Link to="/toDo" className="nav-color">To Do/ To Eat</Link>  
+                    <Link to="/toDo" className="nav-color">To Do/ To Eat</Link>   */}
                 </Navigation>
             </Header>
             <Drawer title="">
                 <Navigation className="nav-color">
-                    <Link to="/ourStory" className="nav-color">Our Story</Link>
+                    {/* updated links to not have people go off landing page until site is built */}
+                    <Link to="/" className="nav-color">Our Story</Link>
+                    <Link to="/" className="nav-color">Gallery</Link>
+                    <Link to="/" className="nav-color">Festivities</Link>
+                    <Link to="/" className="nav-color">Venue</Link>
+                    <Link to="/" className="nav-color">Registry</Link>
+                    <Link to="/" className="nav-color">To Do/ To Eat</Link> 
+
+
+                    {/* old links */}
+                    {/* <Link to="/ourStory" className="nav-color">Our Story</Link>
                     <Link to="/gallery" className="nav-color">Gallery</Link>
                     <Link to="/festivities" className="nav-color">Festivities</Link>
                     <Link to="/venue" className="nav-color">Venue</Link>
                     <Link to="/registry" className="nav-color">Registry</Link>
-                    <Link to="/toDo" className="nav-color">To Do/ To Eat</Link>  
+                    <Link to="/toDo" className="nav-color">To Do/ To Eat</Link>   */}
                 </Navigation>
             </Drawer>
             <Content>
