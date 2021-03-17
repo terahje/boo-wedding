@@ -1,3 +1,69 @@
+/* Header */
+
+#Header {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 1px #333;
+}
+
+#Header h1 {
+  font-size: 20rem;
+  color: #fff;
+
+  font-family: 'Nicholia';
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#Header h3 {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+#Header p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  width: 75%;
+  font-size: 25px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 1rem;
+  font-family: 'Martel' !important;
+  text-align: center;
+  -webkit-text-emphasis: open;
+}
+
+#Header .btn-success {
+  margin-top: 2rem;
+}
+
+#Header .btn-success a {
+  color: #333;
+  padding: 1rem 1rem;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* End of Header */
+
+/* Footer  */
+#Footer {
+  height: 100px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End of Footer */
+
 .landing-grid {
   text-align: inherit;
   position: fixed;
