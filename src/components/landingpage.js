@@ -17,7 +17,7 @@ class Landing extends Component {
                         been so pivotal in our lives.  While the site is being built, you can visit our registry page with 
                         the link at the bottom to get a head start, and please come back on/after March 31st for the final product.  
                     </p>
-                    <button class="btn btn-success btn-lg"><a href="https://www.amazon.com/wedding/terahje-gratkowski-ruve-geyler--september-2021/registry/3472Z5H8ED8SW">Registry</a></button>
+                    <button class="btn btn-success btn-lg"><a href="https://www.amazon.com/wedding/terahje-gratkowski-ruve-geyler--september-2021/registry/3472Z5H8ED8SW" target="_blank">Registry</a></button>
 
             </header>
             {/* // <!-- End of Header --> */}
