@@ -10,9 +10,10 @@
 }
 
 #Header h1 {
-  font-size: 20rem;
+  font-size: 10rem;
   color: #fff;
-  font-family: 'Nicholia' !important;
+  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  max-width: max-content;
   text-align: center;
   margin-bottom: 10px;
 }
