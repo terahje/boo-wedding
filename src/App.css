@@ -35,7 +35,8 @@
   margin: 1rem;
   font-family: 'Martel' !important;
   text-align: center;
-  -webkit-text-emphasis: open;
+  line-height: 30pt;
+
 }
 
 #Header .btn-success {
