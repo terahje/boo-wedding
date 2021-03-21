@@ -4,6 +4,12 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import Footer from './components/footer';
 import { Link } from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab, faAmazon} from '@fortawesome/free-brands-svg-icons'
+import { fas, faTags } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, fas, faAmazon, faTags)
+
 
 class App extends Component {
     render() {

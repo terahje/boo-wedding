@@ -5,7 +5,8 @@ import FlipCountdown from '@rumess/react-flip-countdown';
 class Landing extends Component {
     render() {
         return(
-            <div >
+            <section id="landing">
+
             <Grid className="">
                 <Cell col={4}>
                 <FlipCountdown
@@ -60,7 +61,7 @@ class Landing extends Component {
             </Grid>
             <div className="footerSpacer">
             </div>
-        </div>
+        </section>
        
         )
     }
