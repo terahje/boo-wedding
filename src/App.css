@@ -15,7 +15,6 @@
   font-size: 17rem;
   margin-top: 0 !important;
   line-height: 1 !important;
-  /* margin: 0px 10px 10px 500px; */
 }
 
 .landing-grid h3 {
@@ -87,6 +86,7 @@ header link .nav-color {
 /* new styles for landingpage */
 .demo-layout-transparent {
   background: url('./assets/images/bigscreenback.jpg') center/ cover;
+  max-height: 100vh;
   max-width: 100%;
 }
 .demo-layout-transparent .mdl-layout__header,
@@ -107,6 +107,95 @@ header link .nav-color {
 a hover {
   color: rgba(236, 236, 236, 0.1);
 }
+
+
+/* our story section */
+#ourStory {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#ourStory .backBtn {
+  padding: 10px;
+}
+
+#ourStory .backBtn a{
+  color: #333 !important; 
+  text-decoration: none;
+}
+
+#ourStory .backBtn a:hover {
+  color: rgb(214, 34, 34) !important; 
+  text-decoration:underline;
+}
+
+.fullStory {
+  padding: 1rem;
+  display: flex;
+  align-content: center;
+}
+
+.left__card {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.left__card img {
+  border-radius: 5px;
+}
+
+.right__card h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  margin: 0 !important;
+}
+
+.left__card h3 {
+  font-size: 6rem;
+  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  line-height: 6rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.right__card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 2px dotted black;
+  border-bottom: 2px dotted black;
+  width: 100vh;
+  margin-right: 7rem;
+}
+
+.right__card .days {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.days:nth-child(even) {
+  background-color: rgba(114, 114, 114, .2);
+  border-radius: 5px;
+}
+
+
+/* our story end */
+
+/* Footer  */
+#Footer {
+  height: 75px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End of Footer */
+
 @media screen and (max-width: 1400px) {
 
   /* new styles for landingpage */

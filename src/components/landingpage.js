@@ -58,9 +58,13 @@ class Landing extends Component {
                  
                 </Cell>
             </Grid>
+            <div className="footerSpacer">
+            </div>
         </div>
+       
         )
     }
+
 }
 
 export default Landing;
