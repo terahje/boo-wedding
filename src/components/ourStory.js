@@ -12,7 +12,7 @@ const ourStory = () => {
              </div>
             <div className="fullStory">
                 <div className="left__card">
-                    <img src={ourPic} style={{maxHeight: '200vh', maxWidth: '75%', alignSelf: 'center'}}/>
+                    <img src={ourPic} alt="Ruve and Terahje" style={{maxHeight: '200vh', maxWidth: '75%', alignSelf: 'center'}}/>
                     <h3 className="yeQuote">
                         'I would find you in any lifetime..'
                         <br/>

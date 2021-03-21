@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import regPic from '../assets/images/R&Thugs.jpg'
 
 const registry = () => {
     return (
@@ -29,6 +30,7 @@ const registry = () => {
                         us, and helping us get a jump start on our future. 
                         </h4>
                     </div>
+                    <img src={regPic} alt="Ruve and Terahje" style={{height: '39vh', maxWidth: '75%', alignSelf: 'center'}}/>
                 </div>
             </div>
             
