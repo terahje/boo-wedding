@@ -351,17 +351,13 @@ a hover {
   display: flex;
   position: relative;
   flex-direction: column;
-  margin: 1rem;
-  padding: 1rem;
 }
 
 .festDescRight {
   display: flex;
   position: relative;
   flex-direction: column;
-  margin-left: 5rem;
-  margin: 1rem;
-  padding: 1rem;
+  margin-left: 10rem;
 }
 
 /* Festivities page end */
