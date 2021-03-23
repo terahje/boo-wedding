@@ -4,7 +4,7 @@ import LandingPage from './landingpage';
 import OurStory from './ourStory';
 import Registry from './registry';
 import Festivities from './festivities';
-// import Contact from './contact';
+import ToDo from './toDotoEat';
 // import Projects from './projects';
 // import Resume from './resume';
 
@@ -15,7 +15,7 @@ const Main = () => (
         <Route path= "/ourStory" component={ OurStory } />
         <Route path= "/registry" component={ Registry } />
         <Route path= "/festivities" component={ Festivities } />
-        {/* <Route path= "/contact" component={ Contact } /> */}
+        <Route path= "/toDotoEat" component={ ToDo } />
         {/* <Route path= "/projects" component={ Projects } /> */}
         {/* <Route path= "/resume" component={ Resume } /> */}
     </Switch>

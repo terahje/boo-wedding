@@ -23,7 +23,7 @@ class App extends Component {
                     <Link to="/festivities" className="nav-color">Festivities</Link>
                     <Link to="/venue" className="nav-color">Venue</Link>
                     <Link to="/registry" className="nav-color">Registry</Link>
-                    <Link to="/toDo" className="nav-color">To Do/ To Eat</Link>  
+                    <Link to="/toDotoEat" className="nav-color">To Do/ To Eat</Link>  
                 </Navigation>
             </Header>
             <Drawer title="">
@@ -33,7 +33,7 @@ class App extends Component {
                     <Link to="/festivities" className="nav-color">Festivities</Link>
                     <Link to="/venue" className="nav-color">Venue</Link>
                     <Link to="/registry" className="nav-color">Registry</Link>
-                    <Link to="/toDo" className="nav-color">To Do/ To Eat</Link>  
+                    <Link to="/toDotoEat" className="nav-color">To Do/ To Eat</Link>  
                 </Navigation>
             </Drawer>
             <Content>
