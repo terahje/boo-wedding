@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
 import FlipCountdown from '@rumess/react-flip-countdown';
 
 class Landing extends Component {

@@ -326,13 +326,13 @@ a hover {
 }
 .festMain::before {
   content: "";
-  background-image: url('./assets/images/festBack2.jpg');
+  background-image: url('./assets/images/festBack3.jpg');
   position: absolute;
   top: 10%;
   right: 20%;
   bottom: 15%;
   left: 20%;
-  opacity: .5;
+  opacity: .3;
   border-radius: 5px;
   
 }
