@@ -8,6 +8,13 @@ import RnTView2get from '../assets/images/R&Tview2get.jpg'
 import RnTHoldH from '../assets/images/R&TholdHands.jpg'
 import RnTgaze from '../assets/images/R&Tgaze.jpg'
 import RnToffGaze from '../assets/images/R&ToffGaze.jpg'
+import RnTthrowback from '../assets/images/R&Tthrowback.jpg'
+import RnTcostaR from '../assets/images/R&TcostaR.jpg'
+import RnTnyc from '../assets/images/R&Tnyc.jpg'
+import RnTgum from '../assets/images/R&Tgum.jpg'
+import RnTvegas from '../assets/images/R&Tvegas.jpg'
+import RnTwedSea from '../assets/images/R&TweddingSea.jpg'
+import RnTxmasTree from '../assets/images/R&TxmasTree.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 import GalLeft from '../components/galleryLeft'
 
@@ -107,6 +114,58 @@ const gallery = () => {
                                     className="d-block w-100"
                                     src={RnToffGaze}
                                     alt="Eighth slide"
+                                    />
+
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTcostaR}
+                                    alt="Ninth slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTnyc}
+                                    alt="tenth slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTgum}
+                                    alt="11th slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTvegas}
+                                    alt="12th slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTwedSea}
+                                    alt="13th slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTxmasTree}
+                                    alt="14th slide"
+                                    />
+                                </Carousel.Item>
+
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTthrowback}
+                                    alt="15th slide"
                                     />
 
 

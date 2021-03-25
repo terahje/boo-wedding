@@ -693,7 +693,7 @@ a hover {
 }
 
 .carousel {
-  width:85vh;
+  width:82vh;
   margin: auto;
 }
 
@@ -708,6 +708,10 @@ a hover {
   height: 80vh;
   text-align: center;
   padding-right: 5rem;
+}
+
+.galRight img {
+  max-height: 500px;
 }
 
 .galRight h1 {
