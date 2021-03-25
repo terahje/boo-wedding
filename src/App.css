@@ -2,6 +2,7 @@
   scroll-behavior: smooth;
 }
 
+
 /* landing page  */
 #landing {
   height: 95vh;
@@ -35,7 +36,7 @@
 .landingMain h1 {
   font-family: 'Nicholia', 'Dancing Script', sans-serif;
   color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 2px #333;
+  text-shadow: 4px 4px 4px #333;
   font-size: 17rem;
   margin-top: 0 !important;
   line-height: 1 !important;
@@ -323,6 +324,7 @@ a hover {
   height: 101vh;
   margin: 3rem 15rem;
   border-radius: 5px;
+  text-shadow: 5px 5px 5px rgb(109, 109, 109);
 }
 .festMain::before {
   content: "";
@@ -651,6 +653,139 @@ a hover {
 
 
 /* to Do to Eat page end */
+
+/* Gallery page */
+
+#galleryPage {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 110vh;
+}
+
+#galleryPage .backBtn {
+  padding: 10px;
+}
+
+#galleryPage .backBtn a{
+  color: #333 !important; 
+  text-decoration: none;
+}
+
+#galleryPage .backBtn a:hover {
+  color: rgb(214, 34, 34) !important; 
+  text-decoration:underline;
+}
+
+#fullGalPage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  
+}
+
+.galTallLeft {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}
+
+.galTallLeft .carousel-indicators {
+  padding-top: 10rem;
+}
+
+.carousel {
+  width:85vh;
+  margin: auto;
+}
+
+.carousel img {
+  height: 80%;
+  width: 85%;
+}
+
+.galRight {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  text-align: center;
+  padding-right: 5rem;
+}
+
+.galRight h1 {
+  font-family: 'Martel', sans-serif;
+  font-size: 6rem;
+  text-shadow: 3px -2px 2px rgb(134 134 134);
+}
+.galRight h3 {
+  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  font-size: 5rem;
+  text-shadow: 2px 1px 1px rgba(134, 134, 134, 0.7);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.galRight h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.galRight h6 {
+  margin-top: 0;
+  color: rgba(77, 77, 77, 0.8);
+  margin-bottom: 0;
+}
+
+.galRight p {
+  font-size: 20px;
+}
+
+.galHorzRight .carousel-item img{
+  height: 120%;
+  width: 120%;
+  margin-top: .5rem;
+  margin-left: 2rem;
+}
+
+.galRight .galDesc {
+  margin-left: 5rem;
+}
+
+.galTallLeft {
+  margin: 1rem 0;
+  margin-left: 5rem;
+}
+
+.galTallLeft .carousel-item img {
+  width: 95%;
+  height: 95% !important;
+  object-fit: cover;
+}
+
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-indicator {
+  position: relative;
+  bottom: -50px;
+}
+
+/* Gallery page end */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer  */
 #Footer {

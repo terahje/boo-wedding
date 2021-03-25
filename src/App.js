@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faAmazon} from '@fortawesome/free-brands-svg-icons'
 import { fas, faTags } from '@fortawesome/free-solid-svg-icons'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 library.add(fab, fas, faAmazon, faTags)
 

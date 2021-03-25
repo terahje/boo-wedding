@@ -1,0 +1,122 @@
+import React from 'react'
+import { Link } from "react-router-dom"
+import RnThugview from '../assets/images/R&Thugview.jpg'
+import RnTtreehug from '../assets/images/R&TtreeHug.jpg'
+import RnTboohug from '../assets/images/R&TbooHug.jpg'
+import RnTsunset from '../assets/images/R&Tsunset.jpg'
+import RnTView2get from '../assets/images/R&Tview2get.jpg'
+import RnTHoldH from '../assets/images/R&TholdHands.jpg'
+import RnTgaze from '../assets/images/R&Tgaze.jpg'
+import RnToffGaze from '../assets/images/R&ToffGaze.jpg'
+import Carousel from 'react-bootstrap/Carousel';
+import GalLeft from '../components/galleryLeft'
+
+const gallery = () => {
+    return (
+        <section id="galleryPage">
+            <div className="backBtn">
+                <Link to="/">
+                ← Back to Home
+                </Link>
+             </div>
+             <section id="fullGalPage">
+                 <GalLeft></GalLeft>
+                 
+               
+                <div className="galRight">
+                    <div className="galDesc">
+                        <h1>Gallery</h1>
+                        <p>
+                            Our Gallery is a curatation of pictures collected over the years we've spent together.  
+                            Most you'll be seeing were taken by my Best Friend/ Best Man, Devan Cobb, who provided 
+                            our stunning engagement photos, but we also wanted to add photos of our numerous adventures 
+                            together.  I can't wait to share this day with you all and to add more pictures this page as 
+                            we celebrate together. See you all soon!
+                            <br/>
+                            <h6>For prints of our enagement photos, click <a href="https://devanmichaelphotography.pixieset.com/ruveandterahje/" target="_blank">here</a>.</h6>
+                            <h5>Love,</h5><br/>
+                            <h3>Ruve & Terahje</h3> 
+                        </p>
+                    </div>
+                    <div className="galHorzRight">
+                        <Carousel fade>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTtreehug}
+                                    alt="First slide"
+                                    />
+                                    
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnThugview}
+                                    alt="Second slide"
+                                    />
+
+                                    
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTboohug}
+                                    alt="Third slide"
+                                    />
+
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTsunset}
+                                    alt="Forth slide"
+                                    />
+
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTHoldH}
+                                    alt="Fifth slide"
+                                    />
+
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTView2get}
+                                    alt="Sixth slide"
+                                    />
+
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnTgaze}
+                                    alt="Seventh slide"
+                                    />
+
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={RnToffGaze}
+                                    alt="Eighth slide"
+                                    />
+
+
+                                </Carousel.Item>
+                            </Carousel>
+                        </div>
+                </div>
+            </section>
+        </section>
+    )
+}
+
+export default gallery
