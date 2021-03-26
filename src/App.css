@@ -778,18 +778,82 @@ a hover {
 
 /* Gallery page end */
 
+/* Venue page */
+
+#venuePage {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 165vh;
+}
+
+#venuePage .backBtn {
+  padding: 10px;
+}
+
+#venuePage .backBtn a{
+  color: #333 !important; 
+  text-decoration: none;
+}
+
+#venuePage .backBtn a:hover {
+  color: rgb(214, 34, 34) !important; 
+  text-decoration:underline;
+}
+
+#venueCon {
+  margin: 0 15rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.venTitle h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  font-size: 10rem;
+}
+
+#venDesc {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  padding: 1rem;
+}
+
+.googleMaps {
+  margin-right: 10rem;
+}
+
+.venDescTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#venDesc .venDescTitle h1 {
+  font-family: 'Martel', sans-serif;
+} 
+
+#venDesc .venDescTitle h4 {
+  font-family: 'Martel', sans-serif;
+}
+
+.venWords {
+  margin-left: 10rem;
+}
+
+
+#googleMaps div{
+  width: 50vh !important;
+  height: 50vh !important;
+  margin-top: 1rem;
+}
 
 
 
 
-
-
-
-
-
-
-
-
+/* Venue page end */
 
 /* Footer  */
 #Footer {

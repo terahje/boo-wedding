@@ -11,7 +11,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 library.add(fab, fas, faAmazon, faTags)
 
-
 class App extends Component {
     render() {
   return (

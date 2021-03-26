@@ -6,7 +6,7 @@ import Registry from './registry';
 import Festivities from './festivities';
 import ToDo from './toDotoEat';
 import Gallery from './gallery';
-// import Resume from './resume';
+import Venue from './venue';
 
 
 const Main = () => (
@@ -17,7 +17,7 @@ const Main = () => (
         <Route path= "/festivities" component={ Festivities } />
         <Route path= "/toDotoEat" component={ ToDo } />
         <Route path= "/gallery" component={ Gallery } />
-        {/* <Route path= "/resume" component={ Resume } /> */}
+        <Route path= "/venue" component={ Venue } />
     </Switch>
 )
 
