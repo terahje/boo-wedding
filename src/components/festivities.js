@@ -19,12 +19,14 @@ const festivities = () => {
                         Tucson, AZ 85716</h4>
                     <div className="festFull">
                         <div className="festTimeLeft">
+                            <h3>4:15 PM</h3>
                             <h3>5:00 PM</h3>
-                            <h3>5:30 PM</h3>
-                            <h3>6:00 PM</h3>
+                            <h3>5:25 PM</h3>
+                            <h3>6:30 PM</h3>
                             <h3>7:00 PM</h3>
                         </div>
                         <div className="festDescRight">
+                            <h3>Guest Arrive</h3>
                             <h3>Cermony</h3>
                             <h3>Cocktail Hour</h3>
                             <h3>Buffet Dinner</h3>

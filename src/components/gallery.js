@@ -35,10 +35,9 @@ const gallery = () => {
                         <h1>Gallery</h1>
                         <p>
                             Our Gallery is a curatation of pictures collected over the years we've spent together.  
-                            Most you'll be seeing were taken by my Best Friend/ Best Man, Devan Cobb, who provided 
-                            our stunning engagement photos, but we also wanted to add photos of our numerous adventures 
-                            together.  I can't wait to share this day with you all and to add more pictures this page as 
-                            we celebrate together. See you all soon!
+                            The groom's Best Friend/ Best Man, Devan Cobb, provided the couple's stunning engagement photos.  
+                            The couple has also included photos from their adventures over the years.  They can't wait to share 
+                            this day with you all and to add more pictures as we celebrate together. See you all soon!
                             <br/>
                             <h6>For prints of our enagement photos, click <a href="https://devanmichaelphotography.pixieset.com/ruveandterahje/" target="_blank">here</a>.</h6>
                             <h5>Love,</h5><br/>

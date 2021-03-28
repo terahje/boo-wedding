@@ -34,12 +34,18 @@ const venue = () => {
                      </div>
                      
                      <p>
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem mollitia numquam dolorum veniam debitis aperiam illum fugit expedita! 
-                     Laborum eaque quibusdam culpa! Vel rerum assumenda veniam esse perspiciatis voluptatibus ut cum quae? Ex, magnam dolore saepe repellat 
-                     necessitatibus officiis itaque vero fugit nulla illum nemo, eveniet esse enim id. Recusandae nihil voluptate omnis soluta nisi, fuga illo 
-                     doloribus consequatur neque non commodi ad expedita velit suscipit porro, aspernatur sit adipisci! Iure neque rerum laboriosam impedit quis 
-                     sunt hic delectus eum.
+                     Due to the pandemic, the couple has choosen Amore Events to provide a more intimate gathering.  
+                     The mother-daughter team at Amore Events are long time friends of the bride.  This is a private 
+                     house converted into a venue that accomadates smaller weddings.  Both ceremony and reception will 
+                     be taking place at this location.  For more information about the venue, <a href="https://www.theknot.com/marketplace/amore-events-tucson-tucson-az-2033104" target="_blank">
+                     click here.</a>  
                      </p>
+                     <p>
+                     Please click on the address below for directions. Parking is limited so uber/lyft/carpool is recommended.  
+                     </p>
+                     <h4><a href="https://goo.gl/maps/a3GoBFJCNyAteZVc7" target="_blank">
+                        2649 E. 6th St. <br/>
+                        Tucson, AZ 85716</a></h4>
                      </div>
                  </section>
              </section>
