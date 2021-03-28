@@ -17,7 +17,7 @@ const venue = () => {
                     <h1>Venue</h1>
                  </div>
                  <div className="venHero">
-                    <img src={Venue} alt="Ruve and Terahje" style={{ alignSelf: 'center'}}/>
+                    <img src={Venue} alt="Ruve and Terahje" style={{ alignSelf: 'center', height: '100%', width: '100%'}}/>
                  </div>
 
                  
