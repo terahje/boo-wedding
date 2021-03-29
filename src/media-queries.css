@@ -1,6 +1,6 @@
 /* media queries  */
 
-@media screen and (max-width: 1370px) {
+@media screen and (max-width: 1350px) {
     .landingMain h1 {
         font-size: 13rem;
       }
@@ -43,7 +43,7 @@
     }
 
     .regMain {
-        height: 113vh;
+        height: 108vh !important;
     }
 
     #toDotoEatPage .welcome h1 {
@@ -127,18 +127,26 @@
 
     /* Gallery page */
 
-  
+#galleryPage {
+    height: 160vh !important;
+}
+
   #fullGalPage {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     
   }
+
+  .galRight .galDesc {
+    margin-left: 5rem !important;
+    margin-top: 10rem !important;
+}
   
   .galTallLeft {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 80vh;
   }
   
@@ -166,9 +174,10 @@
     max-width: 75%;
   }
 
-  .carousel {
-      width: 90%;
-  }
+  .carousel img {
+    max-width:50vh !important;
+}
+
   .galRight h1 {
     font-family: 'Martel', sans-serif;
     font-size: 6rem;
@@ -235,8 +244,13 @@
   /* Gallery page end */
 
   .demo-layout-transparent .mdl-layout__header, .demo-layout-transparent .mdl-layout__drawer-button {
-    color: #333;
+    color: #333 !important;
 }
+
+.backBtn {
+    padding: 10px 4rem !important;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -259,8 +273,30 @@
         height: 200vh !important;
       }
 
+    .carousel img {
+        max-width: 60vh !important;
+    }
+
     #festMain h4 {
         font-size: 2rem;
+    }
+
+    .festContainer {
+        margin: 0 !important;
+    }
+    
+    .festMain {
+        margin: 16rem 1rem !important;
+    }
+    
+    #festPage {
+        height: 185vh !important;
+    }
+    
+    .festMain::before {
+        bottom: -50% !important;
+        right: 5% !important;
+        left: 5% !important;
     }
 
     .venWords {
@@ -279,7 +315,127 @@
     .demo-layout-transparent .mdl-layout__header, .demo-layout-transparent .mdl-layout__drawer-button {
         color: #333 !important;
     }
+
+    #toEatSection {
+        height: 105vh !important;
+    }
+
+    #fullListLinks {
+        height: 60vh !important;
+    }
+
+    .doEatMain {
+    margin: 3rem 1rem !important;
+
+    }
 }
+
+@media screen and (max-width: 530px) {
+    #landingCon .landingMain {
+        padding-top: 10rem !important;
+    }
+    
+    .left__card h3 {
+        font-size: 3rem !important;
+    }
+    
+    .carousel img {
+        max-width: 43vh !important;
+    }
+    
+    .galRight .galDesc {
+        margin-left: 5rem !important;
+        margin-top: 10px !important;
+    }
+    
+    #galleryPage {
+        height: 217vh !important;
+    }
+    
+    .festContainer {
+        margin: 0 !important;
+    }
+    
+    .festMain {
+        margin: 16rem 1rem !important;
+    }
+    
+    #festPage {
+        height: 185vh !important;
+    }
+    
+    .festMain::before {
+        bottom: -100% !important;
+        right: 5% !important;
+        left: 5% !important;
+    }
+    
+    #venuePage {
+        height: 262vh !important;
+    }
+    
+    .venWords p {
+        padding-right: 35px !important;
+    }
+    
+    .regContainer {
+        margin: 0 1rem !important;
+    }
+    
+    .regMain {
+        height: 179vh !important;
+    }
+    
+    .regMain h1 {
+        font-size: 5rem !important;
+    }
+    
+    #registryPage {
+        height: 225vh !important;
+    }
+    
+    #toDotoEatPage .welcome h1 {
+        margin: 18rem 0rem !important;
+    }
+    
+    #toDoSection {
+        height: 218vh !important;
+    }
+    
+    #toEatSection {
+        height: 295vh !important;
+    }
+    
+    #fullListLinks {
+        height: 155vh !important;
+    }
+    
+    .doEatContainer {
+        margin: 0px 0rem !important;
+    }
+    
+    .doEatMain {
+        height: 110vh !important;
+    }
+    
+    .backBtn {
+        padding: 10px 4rem !important;
+    }
+    
+    .galRight h3 {
+        font-size: 3rem !important;
+    }
+    
+    #toDotoEatPage .welcome h1 {
+        display: flex;
+        flex-direction: column;
+        align-content: baseline;
+        text-align: center;
+        margin: 20rem 0rem !important;
+        font-size: 7rem !important;
+    }
+    
+    }
 
 @media screen and (max-width: 450px) {
 #landingCon .landingMain {
