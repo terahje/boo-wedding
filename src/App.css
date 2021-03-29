@@ -1,108 +1,75 @@
-/* Header */
+* {
+  scroll-behavior: smooth;
+}
 
-#Header {
-  height: 90vh;
+
+/* landing page  */
+#landing {
+  height: 95vh;
+}
+
+#landing .landingFull {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-shadow: 1px 1px 1px #333;
 }
 
-#Header h1 {
-  font-size: 10rem;
-  color: #fff;
-  font-family: 'Nicholia', 'Dancing Script', sans-serif;
-  max-width: max-content;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-#Header h3 {
-  font-size: 3rem;
-  color: rgba(255, 255, 255, 0.87);
-}
-
-#Header p {
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 1);
+#flipCount {
   display: flex;
-  width: 75%;
-  font-size: 25px;
-  background: rgba(255, 255, 255, 0.2);
-  font-weight: bold;
-  padding: 2rem;
-  border-radius: 5px;
-  margin: 1rem;
-  font-family: 'Martel' !important;
-  text-align: center;
-  line-height: 30pt;
-
+  align-content: flex-start;
+  font-family: 'Martel';
+  float: left;
+  margin-left: 30rem;
 }
 
-#Header .btn-success {
-  margin-top: 2rem;
-}
-
-#Header .btn-success a {
-  color: #333;
-  padding: 1rem 1rem;
-  font-size: 25px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-/* End of Header */
-
-/* Footer  */
-#Footer {
-  height: 100px;
-  background-color: #333;
-  color: #fff;
+.flip-countdown {
+  margin-left: 8rem !important;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-/* End of Footer */
-
-.landing-grid {
-  text-align: inherit;
-  position: fixed;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.flip-countdown.size-small .flip-countdown-piece .flip-countdown-title {
+  font-family: 'Martel';
 }
 
-.landing-grid h1 {
-  font-family: 'Nicholia';
-  color: rgba(224, 224, 224, 0.6);
+.mdl-layout__drawer .flip-countdown.size-small .flip-countdown-piece .flip-countdown-title {
+  font-family: 'Martel';
+  color: #fff;
+}
+
+
+#landingCon .landingMain {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding-top: 25rem;
+}
+
+.landingMain h1 {
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 4px 4px #333;
   font-size: 17rem;
-  /* margin: 0px 10px 10px 500px; */
-}
-
-.landing-grid h3 {
-  color: rgba(224, 224, 224, 0.9);
-  font-size: 3rem;
-  /* margin: 0px 10px 10px 500px; */
-}
-
-h1 {
   margin-top: 0 !important;
   line-height: 1 !important;
 }
 
-h3 {
+.landingMain h3 {
+  color: rgba(224, 224, 224, 1);
+  font-size: 3rem;
+  font-family: 'Martel', serif;
   margin-bottom: 0 !important;
 }
 
-.flip-countdown.size-medium .flip-countdown-piece .flip-countdown-title {
+.flip-countdown.size-small .flip-countdown-piece .flip-countdown-title {
   font-size: 24px;
   font-family: 'Martel, serif' !important;
   color: white;
 }
 
+/* landing page end */
+
+/* nav section  */
 .mdl-layout__drawer {
   background-color: rgba(14, 14, 14, 0.8) !important;
 }
@@ -115,14 +82,6 @@ h3 {
   border: none !important;
 }
 
-/* .homeTexture {
-  opacity: 30%;
-} */
-
-header {
-  font-family: 'Dancing Script', cursive;
-}
-
 .mdl-layout__drawer-button:hover {
   background-color: rgba(0, 23, 43, 0.2) !important;
   color: #000428;
@@ -131,7 +90,7 @@ header {
 
 .mdl-layout__drawer .mdl-navigation a.mdl-navigation__link:hover {
   color: white;
-  background-color: rgba(32, 32, 32, 0.3);
+  background-color: rgba(126, 126, 126, 0.3);
 }
 
 header a:hover {
@@ -162,14 +121,11 @@ header link .nav-color {
   color: white;
 }
 
-a hover {
-  color: rgba(236, 236, 236, 0.1);
-}
-
 /* new styles for landingpage */
 .demo-layout-transparent {
   background: url('./assets/images/bigscreenback.jpg') center/ cover;
-  max-width: 100%;
+  height: fit-content;
+  width:100%;
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
@@ -183,116 +139,749 @@ a hover {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1400px) {
-  .landing-grid {
-    text-align: inherit;
-    position: fixed;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+/* nav section end  */
 
-  .landing-grid h1 {
-    font-family: Nicholia;
-    color: rgba(224, 224, 224, 0.6);
-    font-size: 17rem;
-    /* margin: 0px 10px 10px 500px; */
-  }
 
-  .landing-grid h3 {
-    color: rgba(224, 224, 224, 0.9);
-    font-size: 3rem;
-    /* margin: 0px 10px 10px 500px; */
-  }
-
-  h1 {
-    margin-top: 0 !important;
-    line-height: 1 !important;
-  }
-
-  h3 {
-    margin-bottom: 0 !important;
-  }
-
-  .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-title {
-    font-size: 24px;
-    font-family: 'Martel, serif' !important;
-    color: white;
-  }
-
-  .mdl-layout__drawer {
-    background-color: rgba(14, 14, 14, 0.8) !important;
-  }
-
-  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-    color: rgba(255, 255, 255, 0.9) !important;
-  }
-
-  .mdl-layout__drawer.is-visible {
-    border: none !important;
-  }
-
-  /* .homeTexture {
-    opacity: 30%;
-  } */
-
-  header {
-    font-family: 'Dancing Script', cursive;
-  }
-
-  .mdl-layout__drawer-button:hover {
-    background-color: rgba(0, 23, 43, 0.2);
-    color: #000428;
-    border-radius: 10px;
-  }
-
-  .mdl-layout__drawer .mdl-navigation a.mdl-navigation__link:hover {
-    color: white;
-    background-color: rgba(32, 32, 32, 0.3);
-  }
-
-  header a:hover {
-    background-color: rgba(0, 23, 43, 0.2);
-    color: #000428;
-    border-radius: 10px;
-  }
-
-  header link .nav-color {
-    background-color: rgba(236, 236, 236, 0.753);
-    color: #000428;
-    border-radius: 10px;
-  }
-
-  .mdl-navigation__link {
-    color: rgb(66, 66, 66);
-    text-decoration: none;
-    font-family: 'Martel, serif' !important;
-    margin: 0;
-    font-size: 24px !important;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0;
-    opacity: 0.87;
-  }
-
-  .mdl-layout__header-row .mdl-navigation__link:hover {
-    color: white;
-  }
-
-  a hover {
-    color: rgba(236, 236, 236, 0.1);
-  }
-
-  /* new styles for landingpage */
-  .demo-layout-transparent {
-    background: url('./assets/images/Ruve&Terahje-933.jpg') center/ cover;
-    width: auto;
-  }
-  .demo-layout-transparent .mdl-layout__header,
-  .demo-layout-transparent .mdl-layout__drawer-button {
-    /* This background is dark, so we set text to white. Use 87% black instead if
-//      your background is light. */
-    color: white;
-  }
+a hover {
+  color: rgba(236, 236, 236, 0.1);
 }
+
+
+/* our story section */
+#ourStory {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#ourStory .backBtn {
+  padding: 10px;
+}
+
+#ourStory .backBtn a{
+  color: #333 !important; 
+  text-decoration: none;
+}
+
+#ourStory .backBtn a:hover {
+  color: rgb(214, 34, 34) !important; 
+  text-decoration:underline;
+}
+
+.fullStory {
+  padding: 1rem;
+  display: flex;
+  align-content: center;
+}
+
+.left__card {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.left__card img {
+  border-radius: 5px;
+}
+
+.right__card h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
+  margin: 0 !important;
+}
+
+.left__card h3 {
+  font-size: 6rem;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
+  line-height: 6rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.right__card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 2px dotted black;
+  border-bottom: 2px dotted black;
+  width: 100vh;
+  margin-right: 7rem;
+}
+
+.right__card .days {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.days:nth-child(even) {
+  background-color: rgba(114, 114, 114, .2);
+  border-radius: 5px;
+}
+
+/* our story end */
+
+/* registry page */
+
+#registryPage {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 125vh;
+}
+
+#registryPage .backBtn {
+  padding: 10px;
+}
+
+#registryPage .backBtn a{
+  color: #333 !important; 
+  text-decoration: none;
+}
+
+#registryPage .backBtn a:hover {
+  color: rgb(214, 34, 34) !important; 
+  text-decoration:underline;
+}
+
+.regContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 5rem;
+}
+
+.regMain {
+  display: flex;
+  flex-direction: column;
+  height: 101vh;
+  margin: 3rem 15rem;
+  background-color: rgba(114, 114, 114, .3);
+  border-radius: 5px;
+}
+
+.regMain h1 {
+  text-align: center;
+  font-size: 8rem;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
+  margin-bottom: 0;
+}
+
+.regMain .iconsLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.regMain .iconsLinks a{
+  color:rgba(146, 36, 36, 0.822);
+  font-size: 2rem;
+  font-family: 'Martel', sans-serif;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.regMain .iconsLinks a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.regMain .regP h4 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0 7rem;
+  text-align: center;
+}
+
+.regMain img {
+  margin-top: 1.2rem;
+  border-radius: 5px;
+}
+
+/* registry page end */
+
+/* Festivities page */
+#festPage {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 125vh;
+}
+
+#festPage .backBtn {
+  padding: 10px;
+}
+
+#festPage .backBtn a{
+  color: #333 !important; 
+  text-decoration: none;
+}
+
+#festPage .backBtn a:hover {
+  color: rgb(214, 34, 34) !important; 
+  text-decoration:underline;
+}
+
+.festContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 1rem;
+  margin: 0 5rem;
+}
+
+.festMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 101vh;
+  margin: 3rem 15rem;
+  border-radius: 5px;
+  text-shadow: 5px 5px 5px rgb(109, 109, 109);
+}
+.festMain::before {
+  content: "";
+  background-image: url('./assets/images/festBack3.jpg');
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  bottom: 10%;
+  left: 20%;
+  opacity: .3;
+  border-radius: 5px;
+  
+}
+
+.festMain h1 {
+  text-align: center;
+  position: relative;
+  padding: 0 1rem;
+  font-size: 7rem;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
+  margin-bottom: 0;
+}
+
+.festMain h4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-top: 2px dotted;
+  font-family: 'Martel';
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  align-content: center;
+  font-family: 'Martel', Arial, Helvetica, sans-serif;
+  padding: 1rem 7rem;
+  text-align: center;
+}
+
+.festFull {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.festTimeLeft {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.festDescRight {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-left: 10rem;
+}
+
+/* Festivities page end */
+
+/* to Do to Eat page  */
+#toDotoEatPage {
+  background-image: url('./assets/images/toDoHeader.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+#toDotoEatPage .backBtn {
+  padding: 10px;
+}
+
+#toDotoEatPage .backBtn a{
+  color: #333 !important; 
+  text-decoration: none;
+}
+
+#toDotoEatPage .backBtn a:hover {
+  color: rgb(214, 34, 34) !important; 
+  text-decoration:underline;
+}
+
+#toDotoEatPage .welcome h1 {
+  display: flex;
+  flex-direction: column;
+  align-content: baseline;
+  text-align: center;
+  margin: 25rem 10rem;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
+  font-size: 13rem;
+  color: #fff;
+  text-shadow: 2px 2px 2px #333;
+
+}
+
+.doEatContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 5rem;
+}
+
+.doEatMain {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 3rem 15rem;
+  background-color: rgba(189, 189, 189, 0.8);
+  border-radius: 5px;
+}
+
+.doEatTable {
+  display: flex;
+  flex-direction: row;
+}
+
+.doEatTable h1 {
+  font-family: "Martel", sans-serif;
+  font-size: 4rem;
+  border-bottom: 2px solid black;
+  margin-bottom: 0;
+}
+
+.toDoLeft ul {
+  margin-top: 0;
+  padding: 1rem;
+  padding-right: 2rem;
+  list-style-type: none;
+  line-height: 2.5rem;
+}
+
+.toDoLeft ul li {
+  font-weight: 800;
+  font-family: 'Martel', sans-serif;
+}
+
+.toEatRight ul {
+  border-left: 2px solid black;
+  margin-top: 0;
+  padding: 1rem;
+  padding-left: 5rem;
+  list-style-type: none;
+  line-height: 2.5rem;
+}
+
+.toEatRight h1 {
+  border-left: 2px solid black;
+}
+
+#toDoSection {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 70vh;
+}
+
+.toDoDiv h3 {
+  padding: 2rem;
+  margin-bottom: 0;
+}
+
+.toDoDiv p {
+  padding: 0 4rem;
+  font-size: 19px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#toDoSection h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 3rem 4rem;
+  font-size: 55px;
+  font-family: 'Martel', sans-serif;
+  font-weight: 500;
+}
+
+#toEatSection {
+  background-color: rgba(189, 189, 189, 0.8);
+  height: 75vh;
+}
+
+.toEatDiv h2 {
+  padding: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Martel', sans-serif;
+  font-weight: 500;
+  padding: 3rem 4rem;
+  font-size: 55px;
+  text-align: end;
+}
+
+.toEatDiv p {
+  padding: 0 4rem;
+  font-size: 19px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.doEatTable  a {
+  text-decoration: none;
+  color: #000d7e;
+  font-family: 'Martel', sans-serif;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.doEatTable  a:hover {
+  color: rgb(214, 34, 34) !important; 
+  text-decoration:underline;
+}
+
+
+#toDoSection .toDo-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: space-around;
+  margin: 4rem;
+}
+
+#toDoSection .doing {
+  max-width: 300px;
+  box-shadow: 0 0 15px 5px;
+  text-shadow: 2px 2px 2px #c5c5c5;
+  min-width: 300px;
+  height: 210px;
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+#toDoSection .doing h3{
+  margin-top: 1rem;
+}
+
+#toDoSection .doing h3 a{
+  text-decoration: none;
+  color: #000428;
+}
+
+#toDoSection .doing h3 a:hover{
+  color: #fff;
+}
+
+#toDoSection .doing:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: 0.5s ease;
+  background-color: rgba(126, 126, 126, 0.3);
+  color: #fff;
+}
+
+#toEatSection .toEat-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: space-around;
+  margin: 4rem;
+}
+
+#toEatSection .toEat-container a{
+  text-decoration: none;
+}
+
+#toDoSection .toDo-container a{
+  text-decoration: none;
+  color: #333;
+}
+
+#toEatSection .toEat-container a .doing:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+#toEatSection .doing {
+  max-width: 300px;
+  box-shadow: 0 0 15px 5px;
+  text-shadow: 2px 2px 2px #c5c5c5;
+  min-width: 300px;
+  height: 210px;
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+#toEatSection .doing h3{
+  margin-top: 1rem;
+}
+
+#toEatSection a .doing h3{
+  text-decoration: none;
+  color: #000428;
+}
+
+#toEatSection a:hover{
+  color: #fff;
+  text-shadow: 2px 2px 2px #333;
+}
+
+#toEatSection a .doing:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: 0.5s ease;
+  background-color: rgba(126, 126, 126, 0.3);
+  color: #fff;
+}
+
+.toEat-container a{
+  color: rgb(15, 15, 15);
+  min-height: 300px;
+}
+
+#fullListLinks {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 62vh;
+}
+
+
+/* to Do to Eat page end */
+
+/* Gallery page */
+
+#galleryPage {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 110vh;
+}
+
+#galleryPage .backBtn {
+  padding: 10px;
+}
+
+#galleryPage .backBtn a{
+  color: #333 !important; 
+  text-decoration: none;
+}
+
+#galleryPage .backBtn a:hover {
+  color: rgb(214, 34, 34) !important; 
+  text-decoration:underline;
+}
+
+#fullGalPage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  
+}
+
+.galTallLeft {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}
+
+.galTallLeft .carousel-indicators {
+  padding-top: 10rem;
+}
+
+.carousel {
+  width:82vh;
+  margin: auto;
+}
+
+.carousel img {
+  height: 80%;
+  width: 85%;
+}
+
+.galRight {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  text-align: center;
+  padding-right: 5rem;
+}
+
+.galRight img {
+  max-height: 500px;
+}
+
+.galRight h1 {
+  font-family: 'Martel', sans-serif;
+  font-size: 6rem;
+  text-shadow: 3px -2px 2px rgb(134 134 134);
+}
+.galRight h3 {
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
+  font-size: 5rem;
+  text-shadow: 2px 1px 1px rgba(134, 134, 134, 0.7);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.galRight h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.galRight h6 {
+  margin-top: 0;
+  color: rgba(77, 77, 77, 0.8);
+  margin-bottom: 0;
+}
+
+.galRight p {
+  font-size: 20px;
+}
+
+.galHorzRight .carousel-item img{
+  height: 120%;
+  width: 120%;
+  margin-top: .5rem;
+  margin-left: 2rem;
+}
+
+.galRight .galDesc {
+  margin-left: 5rem;
+}
+
+.galTallLeft {
+  margin: 1rem 0;
+  margin-left: 5rem;
+}
+
+.galTallLeft .carousel-item img {
+  width: 95%;
+  height: 95% !important;
+  object-fit: cover;
+}
+
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-indicator {
+  position: relative;
+  bottom: -50px;
+}
+
+/* Gallery page end */
+
+/* Venue page */
+
+#venuePage {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 165vh;
+}
+
+#venuePage .backBtn {
+  padding: 10px;
+}
+
+#venuePage .backBtn a{
+  color: #333 !important; 
+  text-decoration: none;
+}
+
+#venuePage .backBtn a:hover {
+  color: rgb(214, 34, 34) !important; 
+  text-decoration:underline;
+}
+
+#venueCon {
+  margin: 0 15rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.venTitle h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
+  font-size: 10rem;
+}
+
+#venDesc {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  padding: 1rem;
+}
+
+.googleMaps {
+  margin-right: 10rem;
+}
+
+.venDescTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#venDesc .venDescTitle h1 {
+  font-family: 'Martel', sans-serif;
+} 
+
+#venDesc .venDescTitle h4 {
+  font-family: 'Martel', sans-serif;
+}
+
+.venWords {
+  margin-left: 10rem;
+}
+
+
+#googleMaps div{
+  width: 50vh !important;
+  height: 50vh !important;
+  margin-top: 1rem;
+}
+
+/* Venue page end */
+
+
+
+/* Footer  */
+#Footer {
+  height: 10vh;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End of Footer */

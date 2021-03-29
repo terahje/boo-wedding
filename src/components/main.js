@@ -1,19 +1,23 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom'
 import LandingPage from './landingpage';
-// import AboutMe from './aboutme';
-// import Contact from './contact';
-// import Projects from './projects';
-// import Resume from './resume';
+import OurStory from './ourStory';
+import Registry from './registry';
+import Festivities from './festivities';
+import ToDo from './toDotoEat';
+import Gallery from './gallery';
+import Venue from './venue';
 
 
 const Main = () => (
     <Switch>
         <Route exact path= "/" component={ LandingPage } />
-        {/* <Route path= "/aboutme" component={ AboutMe } />
-        <Route path= "/contact" component={ Contact } />
-        <Route path= "/projects" component={ Projects } />
-        <Route path= "/resume" component={ Resume } /> */}
+        <Route path= "/ourStory" component={ OurStory } />
+        <Route path= "/registry" component={ Registry } />
+        <Route path= "/festivities" component={ Festivities } />
+        <Route path= "/toDotoEat" component={ ToDo } />
+        <Route path= "/gallery" component={ Gallery } />
+        <Route path= "/venue" component={ Venue } />
     </Switch>
 )
 
