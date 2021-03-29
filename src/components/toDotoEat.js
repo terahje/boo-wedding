@@ -28,11 +28,11 @@ const toDotoEat = () => {
                     <div className="toDoImgs">
                         <h2>To Do</h2>
                         <p>
-                            For all of our guess coming from out of state, Welcome to Tucson!  If you've never been here before I know 
-                            what your thinkg, what is there to do in Tucson.  Most of our favorite things to here revolve around being 
+                            For all of our guests coming from out of state, Welcome to Tucson!  If you've never been here before we know 
+                            what your thinking, what is there to do in Tucson?  Most of our favorite things to do revolve around being 
                             outside.  Whether you want to explore the desert through Sabino Canyon or take in the full city view atop the 
                             winding road of Mt. Lemmon, Tucson is full of wonderful surprises. For those looking for a little more excitement, 
-                            Downtown, 4th Ave, and places such as Top Golf have everything your looking for in a night in Tucson.   
+                            Downtown, 4th Ave, and places such as Top Golf have everything your looking for in Tucson.   
                         </p> 
 
                     
@@ -62,7 +62,7 @@ const toDotoEat = () => {
                     <p>
                         Now we're talking!  For all the food lovers coming, Tucson may have TOO many options to pick from.  To help narrow 
                         down your search from the numerous options, or maybe expand to something new, we've listed some of our favorites below.  
-                        Now coming to Tucson, I'd emplore you to try the local mexican resturants either dining in or take out.  My top choices 
+                        We emplore you to try the local mexican resturants either dining in or take out.  Our top choices 
                         for dining out would be <em>BK Carne Asada & Hot Dogs</em> or <em>El Guero Canelo</em>.  Their Carne Asada is a must try.  
                         With dine in options slowing coming back, our top choices our <em>Guadalajara</em>, <em>Poco y Moms</em>, and <em>El Charro Café</em>.  
                         And, if there is any more room left in your wooden leg 😉, the fast food options are endless!  Just driving around you will 

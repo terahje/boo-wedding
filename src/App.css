@@ -13,17 +13,28 @@
   flex-direction: column;
 }
 
-#landing #flipCount {
+#flipCount {
   display: flex;
   align-content: flex-start;
+  font-family: 'Martel';
   float: left;
-  margin-left: 8rem;
+  margin-left: 30rem;
 }
 
 .flip-countdown {
   margin-left: 8rem !important;
   display: flex;
 }
+
+.flip-countdown.size-small .flip-countdown-piece .flip-countdown-title {
+  font-family: 'Martel';
+}
+
+.mdl-layout__drawer .flip-countdown.size-small .flip-countdown-piece .flip-countdown-title {
+  font-family: 'Martel';
+  color: #fff;
+}
+
 
 #landingCon .landingMain {
   display: flex;
@@ -34,7 +45,8 @@
 }
 
 .landingMain h1 {
-  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
   color: rgb(255, 255, 255);
   text-shadow: 4px 4px 4px #333;
   font-size: 17rem;
@@ -49,7 +61,7 @@
   margin-bottom: 0 !important;
 }
 
-.flip-countdown.size-medium .flip-countdown-piece .flip-countdown-title {
+.flip-countdown.size-small .flip-countdown-piece .flip-countdown-title {
   font-size: 24px;
   font-family: 'Martel, serif' !important;
   color: white;
@@ -173,13 +185,15 @@ a hover {
 .right__card h1 {
   text-align: center;
   font-size: 6rem;
-  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
   margin: 0 !important;
 }
 
 .left__card h3 {
   font-size: 6rem;
-  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
   line-height: 6rem;
   text-align: center;
   border-radius: 5px;
@@ -251,7 +265,8 @@ a hover {
 .regMain h1 {
   text-align: center;
   font-size: 8rem;
-  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
   margin-bottom: 0;
 }
 
@@ -344,7 +359,8 @@ a hover {
   position: relative;
   padding: 0 1rem;
   font-size: 8rem;
-  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
   margin-bottom: 0;
 }
 
@@ -412,8 +428,9 @@ a hover {
   align-content: baseline;
   text-align: center;
   margin: 25rem 10rem;
-  font-family: 'Nicholia', 'Dancing Script', sans-serif;
-  font-size: 20rem;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
+  font-size: 15rem;
   color: #fff;
   text-shadow: 2px 2px 2px #333;
 
@@ -720,7 +737,8 @@ a hover {
   text-shadow: 3px -2px 2px rgb(134 134 134);
 }
 .galRight h3 {
-  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
   font-size: 5rem;
   text-shadow: 2px 1px 1px rgba(134, 134, 134, 0.7);
   margin-top: 0;
@@ -810,7 +828,8 @@ a hover {
 .venTitle h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Nicholia', 'Dancing Script', sans-serif;
+  font-family: 'Allura', cursive, sans-serif;
+  letter-spacing: 0.01rem;
   font-size: 10rem;
 }
 
@@ -850,10 +869,9 @@ a hover {
   margin-top: 1rem;
 }
 
-
-
-
 /* Venue page end */
+
+
 
 /* Footer  */
 #Footer {

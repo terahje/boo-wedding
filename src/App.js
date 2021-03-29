@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faAmazon} from '@fortawesome/free-brands-svg-icons'
 import { fas, faTags } from '@fortawesome/free-solid-svg-icons'
+import FlipCountdown from '@rumess/react-flip-countdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 library.add(fab, fas, faAmazon, faTags)
@@ -17,6 +18,17 @@ class App extends Component {
     <div className="demo-big-content demo-layout-transparent mdl-layout mdl-js-layout">
         <Layout>
             <Header className="mdl-layout__header mdl-layout__header--transparent" title=" " scroll>
+            <div className="flipCount">
+                        <FlipCountdown
+                        hideYear
+                        hideHour
+                        hideMinute
+                        hideSecond
+                        size='small' // Options (Default: medium): large, medium, small, extra-small.
+                        className="countdown"
+                        endAt={'2021-09-25 17:00:00'} // Date/Time
+                    />
+                    </div>
                 <Navigation> 
                     <Link to="/ourStory" className="nav-color">Our Story</Link>
                     <Link to="/gallery" className="nav-color">Gallery</Link>
@@ -27,6 +39,17 @@ class App extends Component {
                 </Navigation>
             </Header>
             <Drawer title="">
+            <div className="flipCount">
+                        <FlipCountdown
+                        hideYear
+                        hideHour
+                        hideMinute
+                        hideSecond
+                        size='small' // Options (Default: medium): large, medium, small, extra-small.
+                        className="countdown"
+                        endAt={'2021-09-25 17:00:00'} // Date/Time
+                    />
+                    </div>
                 <Navigation className="nav-color">
                     <Link to="/ourStory" className="nav-color">Our Story</Link>
                     <Link to="/gallery" className="nav-color">Gallery</Link>
