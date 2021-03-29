@@ -347,7 +347,7 @@ a hover {
   position: absolute;
   top: 10%;
   right: 20%;
-  bottom: 15%;
+  bottom: 10%;
   left: 20%;
   opacity: .3;
   border-radius: 5px;
@@ -430,7 +430,7 @@ a hover {
   margin: 25rem 10rem;
   font-family: 'Allura', cursive, sans-serif;
   letter-spacing: 0.01rem;
-  font-size: 15rem;
+  font-size: 13rem;
   color: #fff;
   text-shadow: 2px 2px 2px #333;
 
@@ -505,7 +505,7 @@ a hover {
 }
 
 .toDoDiv p {
-  padding: 0 2rem;
+  padding: 0 4rem;
   font-size: 19px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -536,7 +536,7 @@ a hover {
 }
 
 .toEatDiv p {
-  padding: 0 2rem;
+  padding: 0 4rem;
   font-size: 19px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

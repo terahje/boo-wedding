@@ -13,7 +13,6 @@ import RnTcostaPar from '../assets/images/R&TcostaParrot.jpg'
 import RGC from '../assets/images/RgrandCan.jpg'
 import RnTringXmas from '../assets/images/R&TringXmas.jpg'
 import RnTroadTrip from '../assets/images/R&TthrowbackTrip.jpg'
-import RnTxmasPa from '../assets/images/R&TxmasPa.jpg'
 import RnTbooVegas from '../assets/images/R&TbooVegas.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 
