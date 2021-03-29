@@ -21,7 +21,7 @@ const galleryLeft = () => {
         <section id="carouselLeft">
             <div className="galTallLeft">
                         <div id="carouselLeft">
-                            <Carousel fade style={{width: '65vh'}}>
+                            <Carousel fade style={{width: '60vh'}}>
                                 <Carousel.Item>
                                     <img
                                     className="d-block w-100"

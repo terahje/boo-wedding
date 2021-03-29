@@ -27,6 +27,20 @@
     height: 160% !important;
     }
 
+    #carouselLeft .carousel {
+        width:50vh !important;
+    }
+
+    .galTallLeft {
+        margin: 1rem 0;
+        margin-left: 1rem !important;
+    }
+
+    .carousel {
+        width: 70vh !important;
+        margin: auto !important;
+    }
+
     .galRight .galDesc {
         margin-left: 5rem;
         margin-top: 30rem;
