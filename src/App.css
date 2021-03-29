@@ -124,8 +124,8 @@ header link .nav-color {
 /* new styles for landingpage */
 .demo-layout-transparent {
   background: url('./assets/images/bigscreenback.jpg') center/ cover;
-  height: 100vh;
-  max-width: 100%;
+  height: fit-content;
+  width:100%;
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
@@ -886,18 +886,4 @@ a hover {
 
 /* End of Footer */
 
-@media screen and (max-width: 1400px) {
 
-  /* new styles for landingpage */
-  .demo-layout-transparent {
-    background: url('./assets/images/Ruve&Terahje-933.jpg') center/ cover;
-    height: 100vh;
-    width: auto;
-  }
-  .demo-layout-transparent .mdl-layout__header,
-  .demo-layout-transparent .mdl-layout__drawer-button {
-    /* This background is dark, so we set text to white. Use 87% black instead if
-//      your background is light. */
-    color: white;
-  }
-}
