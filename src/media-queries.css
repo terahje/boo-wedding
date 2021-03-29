@@ -281,7 +281,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
 #landingCon .landingMain {
     padding-top: 10rem !important;
 }
@@ -378,7 +378,12 @@
 }
 
 #toDotoEatPage .welcome h1 {
-    font-size: 6rem !important;
+    display: flex;
+    flex-direction: column;
+    align-content: baseline;
+    text-align: center;
+    margin: 20rem 0rem !important;
+    font-size: 7rem !important;
 }
 
 }
