@@ -27,18 +27,15 @@
     height: 160% !important;
     }
 
-    #carouselLeft .carousel {
-        width:50vh !important;
-    }
 
     .galTallLeft {
         margin: 1rem 0;
         margin-left: 1rem !important;
     }
 
-    .carousel {
-        width: 70vh !important;
-        margin: auto !important;
+    .galRight img {
+        max-height: 500px;
+        max-width: 630px;
     }
 
     .galRight .galDesc {
@@ -51,12 +48,16 @@
         font-weight: 600;
     } 
 
+    .venWords {
+        margin-left: 5rem !important;
+    }
+
     .regMain h1 {
         text-align: center;
         font-size: 5rem;
     }
 
-    .regMain {
+    .regContainer .regMain {
         height: 108vh !important;
     }
 
@@ -127,8 +128,8 @@
     }
 
     .regMain {
-        margin: 3rem 0rem !important;
-        height: 103vh;
+        height: 108vh;
+        margin: 3rem 15rem;
     }
 
     .doEatMain {

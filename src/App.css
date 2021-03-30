@@ -256,7 +256,7 @@ a hover {
 .regMain {
   display: flex;
   flex-direction: column;
-  height: 101vh;
+  height: 108vh;
   margin: 3rem 15rem;
   background-color: rgba(114, 114, 114, .3);
   border-radius: 5px;
@@ -710,7 +710,7 @@ a hover {
 }
 
 .carousel {
-  width:82vh;
+  width: 65vh;
   margin: auto;
 }
 
@@ -800,7 +800,7 @@ a hover {
 
 #venuePage {
   background-color: rgba(255, 255, 255, 0.8);
-  height: 165vh;
+  height: 170vh;
 }
 
 #venuePage .backBtn {
@@ -859,7 +859,7 @@ a hover {
 }
 
 .venWords {
-  margin-left: 10rem;
+  margin-left: 4rem;
 }
 
 
