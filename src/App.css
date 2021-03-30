@@ -1154,6 +1154,72 @@ a hover {
 
 }
 
+@media screen and (max-width: 1105px) {
+  .left__card h3 {
+    font-size: 4rem;
+}
+
+.galRight .galDesc {
+  margin-top: 20rem;
+}
+
+#galleryPage {
+  height: 210vh !important;
+}
+
+  #toDotoEatPage .welcome h1 {
+    margin: 20rem 10rem;
+    font-size: 8rem;
+}
+
+  #toDoSection {
+    height: 75vh;
+  }
+
+  #toEatSection {
+    height: 87vh;
+  }
+
+  #fullListLinks {
+    height: 75vh;
+  }
+
+  .doEatMain {
+    height: 60vh;
+    margin: 3rem 3rem;
+  }
+
+  .festMain::before {
+    content: "";
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    bottom: 5%;
+    left: 20%;
+    opacity: .3;
+    border-radius: 5px;
+  }
+
+  #venuePage {
+    height: 187vh;
+  }
+
+  .regMain {
+    display: flex;
+    flex-direction: column;
+    height: 108vh;
+    margin: 3rem 8rem;
+  }
+
+  #toDotoEatPage .welcome h1 {
+    margin: 20rem 5rem;
+    font-size: 10rem;
+  }
+
+
+
+}
+
 @media screen and (max-width: 768px) {
   .fullStory {
       display: flex;
@@ -1380,6 +1446,10 @@ a hover {
 
 #venuePage {
   height: 262vh !important;
+}
+
+.venWords {
+  margin: 1rem !important;
 }
 
 .venWords p {
