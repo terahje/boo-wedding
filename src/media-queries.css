@@ -47,10 +47,7 @@
         font-size: 3rem;
         font-weight: 600;
     } 
-
-    .venWords {
-        margin-left: 5rem !important;
-    }
+    
 
     .regMain h1 {
         text-align: center;
@@ -58,7 +55,7 @@
     }
 
     .regContainer .regMain {
-        height: 108vh !important;
+        height: 108vh;
     }
 
     #toDotoEatPage .welcome h1 {
@@ -398,7 +395,7 @@
     }
     
     .regMain {
-        height: 179vh !important;
+        height: 179vh;
     }
     
     .regMain h1 {
@@ -505,11 +502,18 @@
 }
 
 .regMain {
-    height: 179vh !important;
+    display: flex;
+    flex-direction: column;
+    height: 169vh;
+    margin: 3rem 0rem !important;
 }
 
 .regMain h1 {
     font-size: 5rem !important;
+}
+
+.regMain .regP h4 {
+    padding: 0px 2rem !important;
 }
 
 #registryPage {
