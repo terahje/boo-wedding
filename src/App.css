@@ -961,6 +961,10 @@ a hover {
 
 
 @media screen and (max-width: 1024px) {
+  #landingCon .landingMain {
+    padding-top: 22rem;
+}
+  
   #ourStory .backBtn {
       padding: 3rem 1rem 0rem;
   }
@@ -1145,7 +1149,9 @@ a hover {
 /* Gallery page end */
 
 .demo-layout-transparent .mdl-layout__header, .demo-layout-transparent .mdl-layout__drawer-button {
-  color: #333 !important;
+  color: rgb(206, 0, 0) !important;
+  background-color: rgba(255,255,255, 0.05);
+  border-radius: 5px;
 }
 
 .backBtn {
@@ -1221,6 +1227,11 @@ a hover {
 }
 
 @media screen and (max-width: 768px) {
+  #landingCon .landingMain {
+    padding-top: 22rem;
+}
+
+
   .fullStory {
       display: flex;
       flex-direction: row;
@@ -1280,7 +1291,9 @@ a hover {
   }
 
   .demo-layout-transparent .mdl-layout__header, .demo-layout-transparent .mdl-layout__drawer-button {
-      color: #333 !important;
+      color: rgb(206, 0, 0) !important;
+      background-color: rgba(255,255,255, 0.05);
+      border-radius: 5px;
   }
 
   #toEatSection {
@@ -1520,6 +1533,227 @@ a hover {
   font-size: 7rem !important;
 }
 
+}
+
+
+@media screen and (max-width: 375px) {
+
+  #galleryPage {
+    height: 225vh !important;
+  }
+  
+  .galRight h1 {
+    font-size: 4rem;
+  } 
+  
+  #festPage {
+    height: 203vh !important;
+  } 
+  
+  .festMain {
+    margin: 17rem 1rem !important;
+  }
+  
+  .festMain h4 {
+    padding: 0rem 2rem;
+  }
+  
+  .festDescRight {
+    margin-left: 5rem;
+  }
+  
+  .festMain::before {
+    bottom: -120% !important;
+  }
+  
+  #venuePage {
+    height: 240vh !important;
+  }
+  
+  #venueCon {
+    margin: 0px 2rem;
+  }
+  
+  .venTitle h1 {
+    font-size: 8rem;
+  }
+  
+  .regMain {
+    margin: 0rem 0rem !important;
+  }
+  
+  .regMain h1 {
+    font-size: 4rem !important;
+  }
+  
+  .regMain .regP h4 {
+    font-size: 20px;
+  }
+  
+  .regContainer .regMain {
+    height: 160vh;
+  }
+  
+  #registryPage {
+    height: 175vh !important;
+  }
+  
+  
+  #toDotoEatPage .welcome h1 {
+    margin: 16rem 0rem !important;
+    font-size: 5rem !important;
+  }
+  
+  #toDoSection {
+    height: 220vh !important;
+  }
+  #toEatSection {
+    height: 295vh !important;
+  }
+  
+  .doEatTable h1 {
+    font-size: 2rem;
+  }
+  
+  .doEatTable {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .toEatRight h1 {
+    border-left: 0;
+  }
+  
+  .toEatRight ul {
+    border-left: 0;
+    padding-left: 0;
+  }
+  
+  .toDoLeft ul {
+    padding-right: 0;
+  }
+  
+  #fullListLinks {
+    height: 145vh !important;
+  }
+  
+  .doEatMain {
+    height: 125vh !important;
+  }
+
+  .demo-layout-transparent .mdl-layout__header, .demo-layout-transparent .mdl-layout__drawer-button
+  #landing {
+    color: #fff !important;
+}
+    
+  }
+
+
+@media screen and (max-width: 350px) {
+
+#galleryPage {
+  height: 287vh !important;
+}
+
+.galRight h1 {
+  font-size: 4rem;
+} 
+
+#festPage {
+  height: 203vh !important;
+} 
+
+.festMain {
+  margin: 17rem 1rem !important;
+}
+
+.festMain h4 {
+  padding: 0rem 2rem;
+}
+
+.festDescRight {
+  margin-left: 5rem;
+}
+
+.festMain::before {
+  bottom: -120% !important;
+}
+
+#venuePage {
+  height: 295vh !important;
+}
+
+#venueCon {
+  margin: 0px 2rem;
+}
+
+.venTitle h1 {
+  font-size: 8rem;
+}
+
+.regMain {
+  margin: 0rem 0rem !important;
+}
+
+.regMain h1 {
+  font-size: 4rem !important;
+}
+
+.regMain .regP h4 {
+  font-size: 20px;
+}
+
+.regContainer .regMain {
+  height: 160vh;
+}
+
+#registryPage {
+  height: 175vh !important;
+}
+
+
+#toDotoEatPage .welcome h1 {
+  margin: 16rem 0rem !important;
+  font-size: 5rem !important;
+}
+
+#toDoSection {
+  height: 280vh !important;
+}
+#toEatSection {
+  height: 385vh !important;
+}
+
+.doEatTable h1 {
+  font-size: 2rem;
+}
+
+.doEatTable {
+  display: flex;
+  flex-direction: column;
+}
+
+.toEatRight h1 {
+  border-left: 0;
+}
+
+.toEatRight ul {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.toDoLeft ul {
+  padding-right: 0;
+}
+
+#fullListLinks {
+  height: 167vh !important;
+}
+
+.doEatMain {
+  height: 145vh !important;
+}
+  
 }
 
 /* media queries end  */
