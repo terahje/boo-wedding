@@ -3,7 +3,7 @@
 ![licenses](https://img.shields.io/badge/License-MIT_License-blue.svg)
 
 ## Description
-My first passion project, this application came to life using React to build the front end pages.  A wedding website for my forth coming wedding, each page is to share our story with our loved ones.  Utializing the Rumes flip countdown npm package to add a flip style countdown is one of my favorite outcomes of an vision I was unsure how to execute.  The gallery is another page where the idea and execution married wonderfully, using React Bootstrap's carousel component to showcase multiple pictures as a slideshow with clickable buttons.  Last point of mention would be the implentation of flex to control the layout of the pages.
+My first passion project, this application came to life using React to build the front-end pages. A wedding website for my forthcoming wedding, each page is to share our story with our loved ones. Utilizing the Rumes flip countdown npm package to add a flip-style countdown is one of my favorite outcomes of a vision I was unsure how to execute. The gallery is another page where the idea and execution married wonderfully, using React Bootstrap's carousel component to showcase multiple pictures as a slideshow with clickable buttons. The last point of mention would be the implementation of flex to control the layout of the pages.
 
 [Link to deployed Website](http://rtg-wedding.herokuapp.com)
 
