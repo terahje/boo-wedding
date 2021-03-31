@@ -227,7 +227,7 @@ a hover {
 
 #registryPage {
   background-color: rgba(255, 255, 255, 0.8);
-  height: 125vh;
+      height: 160vh;
 }
 
 #registryPage .backBtn {
@@ -306,7 +306,7 @@ a hover {
 /* Festivities page */
 #festPage {
   background-color: rgba(255, 255, 255, 0.8);
-  height: 125vh;
+  height: 150vh;
 }
 
 #festPage .backBtn {
@@ -405,7 +405,7 @@ a hover {
 #toDotoEatPage {
   background-image: url('./assets/images/toDoHeader.jpg');
   background-size: cover;
-  height: 100vh;
+  height: 130vh;
 }
 
 #toDotoEatPage .backBtn {
@@ -427,7 +427,7 @@ a hover {
   flex-direction: column;
   align-content: baseline;
   text-align: center;
-  margin: 25rem 10rem;
+  margin: 25rem 0rem;
   font-family: 'Allura', cursive, sans-serif;
   letter-spacing: 0.01rem;
   font-size: 13rem;
@@ -560,7 +560,7 @@ a hover {
   flex-wrap: wrap;
   height: 300px;
   justify-content: space-around;
-  margin: 4rem;
+  margin: 2rem;
 }
 
 #toDoSection .doing {
@@ -604,7 +604,7 @@ a hover {
   flex-wrap: wrap;
   height: 300px;
   justify-content: space-around;
-  margin: 4rem;
+  margin: 2rem;
 }
 
 #toEatSection .toEat-container a{
@@ -800,7 +800,7 @@ a hover {
 
 #venuePage {
   background-color: rgba(255, 255, 255, 0.8);
-  height: 170vh;
+  height: 180vh;
 }
 
 #venuePage .backBtn {
@@ -875,11 +875,13 @@ a hover {
 
 /* Footer  */
 #Footer {
-  height: 10vh;
+  height: 7vh;
   padding: 20px;
   background-color: #333;
   color: #fff;
   display: flex;
+  position:static;
+  bottom: 0;
   justify-content: center;
   align-items: center;
 }
@@ -951,13 +953,90 @@ a hover {
       font-size: 11rem;
   }
 
+  #fullListLinks {
+    height: 70vh;
+}
+
+.doEatMain {
+  height: 50vh;
+  margin: 3rem 5rem;
+}
+
 }
 
 @media screen and (max-width: 1290px) {
-  .landingMain h1 {
-      font-size: 13rem !important;
-    }
+
 }
+
+@media screen and (max-width: 1105px) {
+  .left__card h3 {
+    font-size: 4rem;
+}
+
+.galRight .galDesc {
+  margin-top: 20rem;
+}
+
+#galleryPage {
+  height: 210vh !important;
+}
+
+  #toDotoEatPage .welcome h1 {
+    margin: 20rem 10rem;
+    font-size: 8rem;
+}
+
+  #fullListLinks {
+    height: 75vh;
+  }
+
+  .doEatMain {
+    height: 60vh;
+    margin: 3rem 3rem;
+  }
+
+  .festMain::before {
+    content: "";
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    bottom: 5%;
+    left: 20%;
+    opacity: .3;
+    border-radius: 5px;
+  }
+
+  #venuePage {
+    height: 187vh;
+  }
+
+  .regMain {
+    display: flex;
+    flex-direction: column;
+    height: 108vh;
+    margin: 3rem 8rem;
+  }
+
+  #toDotoEatPage .welcome h1 {
+    margin: 20rem 5rem;
+    font-size: 10rem;
+  }
+
+  .landingMain h1 {
+    font-size: 13rem !important;
+  }
+
+  #toEatSection {
+    height: 115vh;
+}
+
+#toDoSection {
+  height: 90vh;
+}
+
+}
+
+
 
 
 @media screen and (max-width: 1024px) {
@@ -1157,72 +1236,6 @@ a hover {
 .backBtn {
   padding: 10px 4rem !important;
 }
-
-}
-
-@media screen and (max-width: 1105px) {
-  .left__card h3 {
-    font-size: 4rem;
-}
-
-.galRight .galDesc {
-  margin-top: 20rem;
-}
-
-#galleryPage {
-  height: 210vh !important;
-}
-
-  #toDotoEatPage .welcome h1 {
-    margin: 20rem 10rem;
-    font-size: 8rem;
-}
-
-  #toDoSection {
-    height: 75vh;
-  }
-
-  #toEatSection {
-    height: 87vh;
-  }
-
-  #fullListLinks {
-    height: 75vh;
-  }
-
-  .doEatMain {
-    height: 60vh;
-    margin: 3rem 3rem;
-  }
-
-  .festMain::before {
-    content: "";
-    position: absolute;
-    top: 5%;
-    right: 20%;
-    bottom: 5%;
-    left: 20%;
-    opacity: .3;
-    border-radius: 5px;
-  }
-
-  #venuePage {
-    height: 187vh;
-  }
-
-  .regMain {
-    display: flex;
-    flex-direction: column;
-    height: 108vh;
-    margin: 3rem 8rem;
-  }
-
-  #toDotoEatPage .welcome h1 {
-    margin: 20rem 5rem;
-    font-size: 10rem;
-  }
-
-
 
 }
 
