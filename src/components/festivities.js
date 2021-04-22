@@ -27,7 +27,7 @@ const festivities = () => {
                         </div>
                         <div className="festDescRight">
                             <h3>Guest Arrive</h3>
-                            <h3>Cermony</h3>
+                            <h3>Ceremony</h3>
                             <h3>Cocktail Hour</h3>
                             <h3>Buffet Dinner</h3>
                             <h3>Dancing,<br/>Photobooth,<br/>Yard Games</h3>

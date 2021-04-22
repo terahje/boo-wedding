@@ -1,5 +1,8 @@
 * {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* landing page  */
@@ -42,7 +45,7 @@
   flex-direction: column;
   align-content: center;
   text-align: center;
-  padding-top: 25rem;
+  padding-top: 33rem;
 }
 
 .landingMain h1 {
@@ -53,6 +56,22 @@
   font-size: 17rem;
   margin-top: 0 !important;
   line-height: 1 !important;
+  animation: h1anime 3s ease-out;
+}
+
+.landingMain h1::before {
+  opacity: 0;
+}
+
+@keyframes h1anime {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
 }
 
 .landingMain h3 {
@@ -60,6 +79,23 @@
   font-size: 3rem;
   font-family: 'Martel', serif;
   margin-bottom: 0 !important;
+  animation: h3anime 5s ease;
+}
+
+.landingMain h3::before {
+  opacity: 0;
+}
+
+@keyframes h3anime {
+  0% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  1000% {
+    opacity: 1;
+  }
 }
 
 .flip-countdown.size-small .flip-countdown-piece .flip-countdown-title {
@@ -186,6 +222,7 @@ a:hover {
   font-family: 'Allura', cursive, sans-serif;
   letter-spacing: 0.01rem;
   margin: 0 !important;
+  animation: h1anime 3s ease;
 }
 
 .left__card h3 {
@@ -195,6 +232,7 @@ a:hover {
   line-height: 6rem;
   text-align: center;
   border-radius: 5px;
+  animation: h3anime 3s ease;
 }
 
 .right__card {
@@ -207,6 +245,42 @@ a:hover {
   border-bottom: 2px dotted black;
   width: 100vh;
   margin-right: 7rem;
+}
+
+.festMain h4 {
+  animation: h3anime 2s ease;
+}
+
+.festTimeLeft h3:nth-child(1) {
+  animation: h3anime 4s ease;
+}
+.festTimeLeft h3:nth-child(2) {
+  animation: h3anime 6s ease;
+}
+.festTimeLeft h3:nth-child(3) {
+  animation: h3anime 8s ease;
+}
+.festTimeLeft h3:nth-child(4) {
+  animation: h3anime 10s ease;
+}
+.festTimeLeft h3:nth-child(5) {
+  animation: h3anime 12s ease;
+}
+
+.festDescRight h3:nth-child(1) {
+  animation: h3anime 4s ease;
+}
+.festDescRight h3:nth-child(2) {
+  animation: h3anime 6s ease;
+}
+.festDescRight h3:nth-child(3) {
+  animation: h3anime 8s ease;
+}
+.festDescRight h3:nth-child(4) {
+  animation: h3anime 10s ease;
+}
+.festDescRight h3:nth-child(5) {
+  animation: h3anime 12s ease;
 }
 
 .right__card .days {
@@ -265,6 +339,7 @@ a:hover {
   font-family: 'Allura', cursive, sans-serif;
   letter-spacing: 0.01rem;
   margin-bottom: 0;
+  animation: h1anime 3s ease-out;
 }
 
 .regMain .iconsLinks {
@@ -358,6 +433,7 @@ a:hover {
   font-family: 'Allura', cursive, sans-serif;
   letter-spacing: 0.01rem;
   margin-bottom: 0;
+  animation: h1anime 1.5s ease-out;
 }
 
 .festMain h4 {
@@ -429,6 +505,7 @@ a:hover {
   font-size: 13rem;
   color: #fff;
   text-shadow: 2px 2px 2px #333;
+  animation: h1anime 2s ease-in-out;
 }
 
 .doEatContainer {
@@ -487,6 +564,14 @@ a:hover {
 
 .toEatRight h1 {
   border-left: 2px solid black;
+}
+
+#toDoSection h2 {
+  animation: h1anime 3s ease-out;
+}
+
+.toEatDiv h2 {
+  animation: h1anime 3s ease-out;
 }
 
 #toDoSection {
@@ -659,7 +744,7 @@ a:hover {
 
 #fullListLinks {
   background-color: rgba(255, 255, 255, 0.8);
-  height: 62vh;
+  height: 100%;
 }
 
 /* to Do to Eat page end */
@@ -727,6 +812,7 @@ a:hover {
   font-family: 'Martel', sans-serif;
   font-size: 6rem;
   text-shadow: 3px -2px 2px rgb(134 134 134);
+  animation: h1anime 3s ease-out;
 }
 .galRight h3 {
   font-family: 'Allura', cursive, sans-serif;
@@ -735,11 +821,22 @@ a:hover {
   text-shadow: 2px 1px 1px rgba(134, 134, 134, 0.7);
   margin-top: 0;
   margin-bottom: 0;
+  animation: h3anime 10s ease;
 }
 
 .galRight h5 {
   margin-top: 0;
   margin-bottom: 5px;
+  animation: colors 6s infinite;
+}
+
+@keyframes colors {
+  from {
+    color: black;
+  }
+  to {
+    color: red;
+  }
 }
 
 .galRight h6 {
@@ -822,6 +919,7 @@ a:hover {
   font-family: 'Allura', cursive, sans-serif;
   letter-spacing: 0.01rem;
   font-size: 10rem;
+  animation: h1anime 3s ease-out;
 }
 
 #venDesc {
@@ -870,6 +968,7 @@ a:hover {
   display: flex;
   position: static;
   bottom: 0;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -936,10 +1035,6 @@ a:hover {
     font-size: 11rem;
   }
 
-  #fullListLinks {
-    height: 70vh;
-  }
-
   .doEatMain {
     height: 50vh;
     margin: 3rem 5rem;
@@ -950,6 +1045,9 @@ a:hover {
 }
 
 @media screen and (max-width: 1105px) {
+  #landingCon .landingMain {
+    padding-top: 15rem;
+  }
   .left__card h3 {
     font-size: 4rem;
   }
@@ -959,7 +1057,7 @@ a:hover {
   }
 
   #galleryPage {
-    height: 210vh !important;
+    height: 135vh !important;
   }
 
   #fullGalPage {
@@ -972,12 +1070,8 @@ a:hover {
     font-size: 8rem;
   }
 
-  #fullListLinks {
-    height: 75vh;
-  }
-
   .doEatMain {
-    height: 60vh;
+    height: 66vh;
     margin: 3rem 3rem;
   }
 
@@ -1005,11 +1099,24 @@ a:hover {
 
   #toDotoEatPage .welcome h1 {
     margin: 20rem 5rem;
-    font-size: 10rem;
+    font-size: 9rem;
   }
 
   .landingMain h1 {
-    font-size: 13rem !important;
+    font-size: 10rem;
+    margin-bottom: 0;
+  }
+  .landingMain h3 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  .mdl-navigation__link {
+    font-size: 20px !important;
+  }
+
+  #toDotoEatPage {
+    height: 120vh;
   }
 
   #toEatSection {
@@ -1018,6 +1125,35 @@ a:hover {
 
   #toDoSection {
     height: 90vh;
+  }
+
+  .right__card {
+    margin-right: 4rem;
+    width: 43vw;
+  }
+
+  .galRight .galDesc {
+    margin-left: 5rem;
+    margin-top: 0rem;
+  }
+
+  #fullGalPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fullStory {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .festMain {
+    justify-content: flex-start;
+    height: 101vh;
+    margin: 0rem 15rem;
+  }
+
+  .festMain::before {
+    bottom: 4%;
   }
 }
 
@@ -1033,6 +1169,9 @@ a:hover {
   .landingMain h1 {
     font-size: 9rem !important;
   }
+  .landingMain h3 {
+    font-size: 2.5rem;
+  }
 
   .left__card h3 {
     font-size: 5rem;
@@ -1046,15 +1185,45 @@ a:hover {
   }
 
   .festMain {
-    margin: -5rem 15rem !important;
+    justify-content: flex-start;
+    height: 101vh;
+    margin: 0rem 15rem;
   }
 
   .festMain::before {
-    bottom: 10% !important;
+    bottom: -46%;
+  }
+
+  .festFull {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .festDescRight {
+    margin-left: 5rem;
   }
 
   .festMain h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .festDescRight h3 {
+    font-size: 20px;
+  }
+
+  #venuePage {
+    height: 180vh;
+  }
+
+  #venueCon {
+    margin: 0px 5rem;
+  }
+
+  #venDesc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: space-between;
+    padding: 1rem;
   }
 
   #venDesc .venDescTitle h1 {
@@ -1063,7 +1232,7 @@ a:hover {
   }
 
   .venWords {
-    margin-top: 10rem;
+    margin-top: 2rem;
   }
 
   #venDesc {
@@ -1086,32 +1255,55 @@ a:hover {
     margin: 3rem 0rem;
   }
 
-  #toDotoEatPage .welcome h1 {
-    font-size: 11rem;
+  .toDotoEatPage .welcome h1 {
+    font-size: 9rem;
+  }
+
+  #toDotoEatPage {
+    height: 100vh;
+  }
+
+  #toDoSection .doing {
+    min-width: 280px;
+    max-width: 280px;
+  }
+
+  #toEatSection .doing {
+    min-width: 280px;
+    max-width: 280px;
+  }
+
+  #toDoSection {
+    height: 80vh;
+  }
+
+  #toEatSection {
+    height: 90vh;
   }
 
   /* Gallery page */
 
   #galleryPage {
-    height: 160vh !important;
+    height: 120vh !important;
   }
 
   #fullGalPage {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .galRight .galDesc {
-    margin-left: 5rem !important;
-    margin-top: 10rem !important;
+    margin-left: 0rem !important;
+    margin-top: 0rem !important;
   }
 
   .galTallLeft {
-    display: flex;
-    flex-direction: row;
-    height: 80vh;
+    margin: 0;
+    margin-left: 1rem;
+  }
+
+  .carousel-inner {
+    height: 100%;
   }
 
   .galTallLeft .carousel-indicators {
@@ -1119,7 +1311,7 @@ a:hover {
   }
 
   .carousel {
-    width: 82vh;
+    width: 100%;
     margin: auto;
   }
 
@@ -1129,17 +1321,11 @@ a:hover {
   }
 
   .galRight {
-    height: 80vh;
-    max-width: 100%;
-  }
-
-  .galRight img {
-    max-height: 500px;
-    max-width: 75%;
+    padding: 2rem;
   }
 
   .carousel img {
-    max-width: 50vh !important;
+    max-width: 50vw !important;
   }
 
   .galRight h1 {
@@ -1206,6 +1392,14 @@ a:hover {
 
   /* Gallery page end */
 
+  .regMain {
+    margin: 3rem 2rem;
+  }
+
+  #registryPage {
+    height: 130vh;
+  }
+
   .demo-layout-transparent .mdl-layout__header,
   .demo-layout-transparent .mdl-layout__drawer-button {
     color: rgb(206, 0, 0) !important;
@@ -1224,10 +1418,8 @@ a:hover {
   }
 
   .fullStory {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .left__card h3 {
@@ -1240,6 +1432,18 @@ a:hover {
 
   #galleryPage {
     height: 200vh !important;
+  }
+
+  .galRight p {
+    font-size: 19px;
+  }
+
+  .galRight h3 {
+    font-size: 4rem;
+  }
+
+  .galRight h6 {
+    font-size: 12px;
   }
 
   .carousel img {
@@ -1272,13 +1476,40 @@ a:hover {
     margin-left: 0 !important;
   }
 
-  .venHero img {
-    height: 50vh !important;
-    width: 75vh !important;
+  #venuePage {
+    height: 187vh !important;
+  }
+
+  #venDesc {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 1rem;
   }
 
   #venuePage {
-    height: 187vh !important;
+    height: 160vh !important;
+  }
+
+  .regMain {
+    margin: 1rem 0;
+  }
+
+  .regMain h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .regP h4 {
+    font-size: 18px;
+  }
+
+  .regContainer .regMain {
+    height: 100%;
+  }
+
+  #registryPage {
+    height: 100vh;
   }
 
   .demo-layout-transparent .mdl-layout__header,
@@ -1288,122 +1519,22 @@ a:hover {
     border-radius: 5px;
   }
 
+  #toDotoEatPage {
+    height: 57vh;
+  }
+
+  #toDotoEatPage .welcome h1 {
+    margin: 20rem 2rem;
+    font-size: 7rem;
+  }
+
   #toEatSection {
     height: 105vh !important;
   }
 
-  #fullListLinks {
-    height: 60vh !important;
-  }
-
   .doEatMain {
-    margin: 3rem 1rem !important;
-  }
-}
-
-@media screen and (max-width: 530px) {
-  #landingCon .landingMain {
-    padding-top: 10rem !important;
-  }
-
-  .left__card h3 {
-    font-size: 3rem !important;
-  }
-
-  .carousel img {
-    max-width: 43vh !important;
-  }
-
-  .galRight .galDesc {
-    margin-left: 5rem !important;
-    margin-top: 10px !important;
-  }
-
-  #galleryPage {
-    height: 217vh !important;
-  }
-
-  .festContainer {
-    margin: 0 !important;
-  }
-
-  .festMain {
-    margin: 16rem 1rem !important;
-  }
-
-  #festPage {
-    height: 185vh !important;
-  }
-
-  .festMain::before {
-    bottom: -100% !important;
-    right: 5% !important;
-    left: 5% !important;
-  }
-
-  #venuePage {
-    height: 262vh !important;
-  }
-
-  .venWords p {
-    padding-right: 35px !important;
-  }
-
-  .regContainer {
-    margin: 0 1rem !important;
-  }
-
-  .regMain {
-    height: 179vh;
-  }
-
-  .regMain h1 {
-    font-size: 5rem !important;
-  }
-
-  #registryPage {
-    height: 225vh !important;
-  }
-
-  #toDotoEatPage .welcome h1 {
-    margin: 18rem 0rem !important;
-  }
-
-  #toDoSection {
-    height: 218vh !important;
-  }
-
-  #toEatSection {
-    height: 295vh !important;
-  }
-
-  #fullListLinks {
-    height: 155vh !important;
-  }
-
-  .doEatContainer {
-    margin: 0px 0rem !important;
-  }
-
-  .doEatMain {
-    height: 110vh !important;
-  }
-
-  .backBtn {
-    padding: 10px 4rem !important;
-  }
-
-  .galRight h3 {
-    font-size: 3rem !important;
-  }
-
-  #toDotoEatPage .welcome h1 {
-    display: flex;
-    flex-direction: column;
-    align-content: baseline;
-    text-align: center;
-    margin: 20rem 0rem !important;
-    font-size: 7rem !important;
+    height: 100%;
+    margin: 3rem 1rem;
   }
 }
 
@@ -1412,8 +1543,30 @@ a:hover {
     padding-top: 10rem !important;
   }
 
-  .left__card h3 {
-    font-size: 3rem !important;
+  .landingMain h1 {
+    font-size: 5rem !important;
+  }
+
+  .landingMain h3 {
+    font-size: 1.7rem;
+  }
+
+  #landingCon .landingMain {
+    padding-top: 23rem !important;
+  }
+
+  .fullStory {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .right__card {
+    width: 95%;
+  }
+
+  #fullGalPage {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .carousel img {
@@ -1429,26 +1582,43 @@ a:hover {
     height: 217vh !important;
   }
 
+  .galTallLeft {
+    margin: 0;
+    margin-left: 0 !important;
+  }
+
   .festContainer {
     margin: 0 !important;
   }
 
   .festMain {
-    margin: 16rem 1rem !important;
+    margin: 0rem 1rem !important;
   }
 
   #festPage {
-    height: 185vh !important;
+    height: 170vh !important;
   }
 
   .festMain::before {
-    bottom: -100% !important;
+    bottom: -80% !important;
     right: 5% !important;
     left: 5% !important;
   }
 
+  .festDescRight {
+    margin-left: 2rem;
+  }
+
+  .festMain h4 {
+    font-size: 16px;
+  }
+
+  #venueCon {
+    margin: 0px 1rem;
+  }
+
   #venuePage {
-    height: 262vh !important;
+    height: 212vh !important;
   }
 
   .venWords {
@@ -1479,7 +1649,7 @@ a:hover {
   }
 
   #registryPage {
-    height: 225vh !important;
+    height: 147vh !important;
   }
 
   #toDotoEatPage .welcome h1 {
@@ -1492,10 +1662,6 @@ a:hover {
 
   #toEatSection {
     height: 295vh !important;
-  }
-
-  #fullListLinks {
-    height: 155vh !important;
   }
 
   .doEatContainer {
@@ -1619,10 +1785,6 @@ a:hover {
     padding-right: 0;
   }
 
-  #fullListLinks {
-    height: 145vh !important;
-  }
-
   .doEatMain {
     height: 125vh !important;
   }
@@ -1726,10 +1888,6 @@ a:hover {
 
   .toDoLeft ul {
     padding-right: 0;
-  }
-
-  #fullListLinks {
-    height: 167vh !important;
   }
 
   .doEatMain {

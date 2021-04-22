@@ -116,11 +116,15 @@ const toDotoEat = () => {
                                         <li>
                                             <a href="https://www.tripadvisor.com/Attraction_Review-g60950-d524680-Reviews-A_Mountain_Sentinel_Peak-Tucson_Arizona.html" target="_blank">
                                             "A" Mountain</a></li>
-                                        <li>Shopping:&nbsp; 
+                                        <li>
                                             <a href="https://www.laencantadashoppingcenter.com/" target="_blank" >
-                                                La Encantada</a> & &nbsp; 
-                                                <a href="https://www.parkplacemall.com/en.html" target="_blank">
-                                                    Park Place Mall</a></li>
+                                                La Encantada Mall</a>
+                                                    </li>
+                                        <li>
+                                            <a href="https://www.borderlandsbrewing.com/" target="_blank" >
+                                                Borderlands Brewing Co.</a>
+                                                    </li>
+                                        
                                     </ul>
                             </div>
                             <div className="toEatRight">
