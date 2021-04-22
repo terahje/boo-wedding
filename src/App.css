@@ -1447,7 +1447,11 @@ a:hover {
   }
 
   .carousel img {
-    max-width: 60vh !important;
+    max-width: 100% !important;
+  }
+
+  .galHorzRight .carousel-item img {
+    margin-left: 0;
   }
 
   #festMain h4 {
@@ -1555,6 +1559,10 @@ a:hover {
     padding-top: 23rem !important;
   }
 
+  .left__card {
+    order: 2;
+  }
+
   .fullStory {
     display: grid;
     grid-template-columns: 1fr;
@@ -1569,17 +1577,8 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
-  .carousel img {
-    max-width: 43vh !important;
-  }
-
-  .galRight .galDesc {
-    margin-left: 5rem !important;
-    margin-top: 10px !important;
-  }
-
-  #galleryPage {
-    height: 217vh !important;
+  .galRight {
+    padding: 11rem 1rem;
   }
 
   .galTallLeft {
@@ -1618,7 +1617,7 @@ a:hover {
   }
 
   #venuePage {
-    height: 212vh !important;
+    height: 220vh !important;
   }
 
   .venWords {
@@ -1657,11 +1656,11 @@ a:hover {
   }
 
   #toDoSection {
-    height: 218vh !important;
+    height: 178vh !important;
   }
 
   #toEatSection {
-    height: 295vh !important;
+    height: 225vh !important;
   }
 
   .doEatContainer {
@@ -1677,16 +1676,39 @@ a:hover {
   }
 
   .galRight h3 {
-    font-size: 3rem !important;
+    font-size: 4rem !important;
+  }
+
+  #toDotoEatPage {
+    height: 42vh;
   }
 
   #toDotoEatPage .welcome h1 {
-    display: flex;
-    flex-direction: column;
-    align-content: baseline;
-    text-align: center;
-    margin: 20rem 0rem !important;
-    font-size: 7rem !important;
+    margin: 6rem 0 !important;
+    font-size: 5rem !important;
+  }
+
+  #toDoSection h2 {
+    font-size: 45px;
+  }
+
+  .toDoDiv p {
+    font-size: 16px;
+  }
+  #toEatSection h2 {
+    font-size: 45px;
+  }
+
+  .toEatDiv p {
+    font-size: 16px;
+  }
+
+  .doEatTable h1 {
+    font-size: 3rem;
+  }
+
+  .toEatRight ul {
+    padding-left: 1rem;
   }
 }
 
