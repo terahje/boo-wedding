@@ -26,7 +26,7 @@ const gallery = () => {
                 ← Back to Home
                 </Link>
              </div>
-             <section id="fullGalPage">
+             <div id="fullGalPage">
                  <GalLeft/>           
                 <div className="galRight">
                     <div className="galDesc">
@@ -169,7 +169,7 @@ const gallery = () => {
                             </Carousel>
                         </div>
                 </div>
-            </section>
+            </div>
         </section>
     )
 }

@@ -37,19 +37,18 @@ const toDotoEat = () => {
 
                     
                         <div className="toDo-container">
-                            <a href="https://www.fs.usda.gov/recarea/coronado/recarea/?recid=80532" target="_blank">
                                 <div className="doing" style={{ backgroundImage: `url(${sabCan})`, backgroundSize: 'cover', objectFit:'inherit'}}>
                                     <h3><a href="https://www.fs.usda.gov/recarea/coronado/recarea/?recid=80532" target="_blank">Sabino Canyon</a></h3>
-                                    </div></a>
-                            <a href="https://fourthavenue.org/" target="_blank">
+                                    </div>
+                           
                                 <div className="doing" style={{ backgroundImage: `url(${FthAve})`, backgroundSize: 'cover', objectFit:'inherit'}}>
                                     <h3><a href="https://fourthavenue.org/" target="_blank">Historic 4th Ave</a></h3>
-                                    </div></a>
-                            <a href="https://www.tripadvisor.com/Attraction_Review-g60950-d524680-Reviews-A_Mountain_Sentinel_Peak-Tucson_Arizona.html" target="_blank">
+                                    </div>
+                            
                                 <div className="doing" style={{ backgroundImage: `url(${aMount})`, backgroundSize: 'cover', objectFit:'inherit'}}>
                                     <h3><a href="https://www.tripadvisor.com/Attraction_Review-g60950-d524680-Reviews-A_Mountain_Sentinel_Peak-Tucson_Arizona.html" target="_blank">
                                         "A" Mountain</a></h3>
-                                    </div></a>
+                                    </div>
             
                         </div>
                     </div>
@@ -72,21 +71,18 @@ const toDotoEat = () => {
                     </p> 
 
                     <div className="toEat-container">
-                            <a href="https://www.bktacos.com/" target="_blank">
                             <div className="doing" style={{ backgroundImage: `url(${burro})`, backgroundSize: 'cover', objectFit:'inherit'}}>
                                 <h3><a href="https://www.bktacos.com/" target="_blank">
                                     BK Carne Asada & Hot Dogs</a></h3>
-                                </div></a>
-                            <a href="https://www.raisingcanes.com/location/arizona/tucson/broadway" target="_blank">
+                                </div>
                                 <div className="doing" style={{ backgroundImage: `url(${canes})`, backgroundSize: 'cover', objectFit:'inherit'}}>
                                 <h3><a href="https://www.raisingcanes.com/location/arizona/tucson/broadway" target="_blank">
                                     Raising Canes</a></h3>
-                                </div></a>
-                            <a href="https://www.guadalajaraoriginalgrill.com/" target="_blank">
+                                </div>
                                 <div className="doing" style={{ backgroundImage: `url(${guadSalsa})`, backgroundSize: 'cover', objectFit:'inherit'}}>
                                     <h3><a href="https://www.guadalajaraoriginalgrill.com/" target="_blank">
                                         Guadalajara Original Grill</a></h3>
-                                    </div></a>
+                                    </div>
             
                         </div>
 

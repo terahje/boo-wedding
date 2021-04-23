@@ -227,7 +227,7 @@ a:hover {
 }
 
 .left__card h3 {
-  font-size: 6rem;
+  font-size: 4rem;
   font-family: 'Allura', cursive, sans-serif;
   letter-spacing: 0.01rem;
   line-height: 6rem;
@@ -245,7 +245,7 @@ a:hover {
   border-top: 2px dotted black;
   border-bottom: 2px dotted black;
   width: 100vh;
-  margin-right: 7rem;
+  margin-right: 2rem;
 }
 
 .festMain h4 {
@@ -328,7 +328,7 @@ a:hover {
 .regMain {
   display: flex;
   flex-direction: column;
-  height: 108vh;
+  height: 100%;
   margin: 3rem 15rem;
   background-color: rgba(114, 114, 114, 0.3);
   border-radius: 5px;
@@ -336,11 +336,11 @@ a:hover {
 
 .regMain h1 {
   text-align: center;
-  font-size: 8rem;
+  font-size: 5rem;
   font-family: 'Allura', cursive, sans-serif;
   letter-spacing: 0.01rem;
   margin-bottom: 0;
-  animation: h1anime 3s ease-out;
+  animation: h1anime 1.5s ease-out;
 }
 
 .regMain .iconsLinks {
@@ -357,10 +357,10 @@ a:hover {
 }
 
 .regMain .iconsLinks a:nth-child(1) {
-  animation: h3anime 4s ease;
+  animation: h3anime 2s ease;
 }
 .regMain .iconsLinks a:nth-child(2) {
-  animation: h3anime 5s ease;
+  animation: h3anime 3s ease;
 }
 
 .regMain .iconsLinks a:hover {
@@ -530,7 +530,7 @@ a:hover {
   flex-direction: column;
   align-content: center;
   align-items: center;
-  height: 50vh;
+  height: 100%;
   margin: 3rem 15rem;
   background-color: rgba(189, 189, 189, 0.8);
   border-radius: 5px;
@@ -584,7 +584,7 @@ a:hover {
 
 #toDoSection {
   background-color: rgba(255, 255, 255, 0.8);
-  height: 70vh;
+  height: 100%;
 }
 
 .toDoDiv h3 {
@@ -609,7 +609,7 @@ a:hover {
 
 #toEatSection {
   background-color: rgba(189, 189, 189, 0.8);
-  height: 75vh;
+  height: 100%;
 }
 
 .toEatDiv h2 {
@@ -647,7 +647,6 @@ a:hover {
   flex-wrap: wrap;
   height: 300px;
   justify-content: space-around;
-  margin: 2rem;
 }
 
 #toDoSection .doing {
@@ -691,7 +690,6 @@ a:hover {
   flex-wrap: wrap;
   height: 300px;
   justify-content: space-around;
-  margin: 2rem;
 }
 
 #toEatSection .toEat-container a {
@@ -737,7 +735,7 @@ a:hover {
   text-shadow: 2px 2px 2px #333;
 }
 
-#toEatSection a .doing:hover {
+#toEatSection .doing:hover {
   cursor: pointer;
   transform: scale(1.01);
   transition: 0.5s ease;
@@ -761,7 +759,7 @@ a:hover {
 
 #galleryPage {
   background-color: rgba(255, 255, 255, 0.8);
-  height: 110vh;
+  height: 113vh;
 }
 
 #galleryPage .backBtn {
@@ -782,6 +780,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  height: 100%;
 }
 
 .galTallLeft {
@@ -809,7 +808,7 @@ a:hover {
   flex-direction: column;
   height: 80vh;
   text-align: center;
-  padding-right: 5rem;
+  padding: 0 2rem;
 }
 
 .galRight img {
@@ -821,14 +820,15 @@ a:hover {
   font-size: 6rem;
   text-shadow: 3px -2px 2px rgb(134 134 134);
   animation: h1anime 3s ease-out;
+  margin: 0;
 }
 .galRight h3 {
   font-family: 'Allura', cursive, sans-serif;
   letter-spacing: 0.01rem;
-  font-size: 5rem;
+  font-size: 4rem;
   text-shadow: 2px 1px 1px rgba(134, 134, 134, 0.7);
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   animation: h3anime 10s ease;
 }
 
@@ -855,6 +855,7 @@ a:hover {
 
 .galRight p {
   font-size: 20px;
+  margin-bottom: 0;
 }
 
 .galHorzRight .carousel-item img {
@@ -862,10 +863,6 @@ a:hover {
   width: 120%;
   margin-top: 0.5rem;
   margin-left: 2rem;
-}
-
-.galRight .galDesc {
-  margin-left: 5rem;
 }
 
 .galTallLeft {
@@ -896,7 +893,7 @@ a:hover {
 
 #venuePage {
   background-color: rgba(255, 255, 255, 0.8);
-  height: 180vh;
+  height: 100%;
 }
 
 #venuePage .backBtn {
@@ -914,7 +911,7 @@ a:hover {
 }
 
 #venueCon {
-  margin: 0 15rem;
+  margin: 0 8rem;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -986,7 +983,7 @@ a:hover {
 /* media queries  */
 
 @media screen and (max-width: 1350px) {
-  .landingMain h1 {
+  /* .landingMain h1 {
     font-size: 13rem;
   }
 
@@ -1046,7 +1043,7 @@ a:hover {
   .doEatMain {
     height: 50vh;
     margin: 3rem 5rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 1290px) {
@@ -1365,7 +1362,7 @@ a:hover {
     font-size: 5rem;
     text-shadow: 2px 1px 1px rgba(134, 134, 134, 0.7);
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
   .galRight h5 {
