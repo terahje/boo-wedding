@@ -245,7 +245,7 @@ a:hover {
   border-top: 2px dotted black;
   border-bottom: 2px dotted black;
   width: 100vh;
-  margin-right: 2rem;
+  margin: 0 2rem;
 }
 
 .festMain h4 {
@@ -485,7 +485,7 @@ a:hover {
 #toDotoEatPage {
   background-image: url('./assets/images/toDoHeader.jpg');
   background-size: cover;
-  height: 130vh;
+  height: 100vh;
 }
 
 #toDotoEatPage .backBtn {
@@ -646,6 +646,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
+  padding: 2rem 0;
   justify-content: space-around;
 }
 
@@ -670,7 +671,7 @@ a:hover {
 
 #toDoSection .doing h3 a {
   text-decoration: none;
-  color: #000428;
+  color: #323447;
 }
 
 #toDoSection .doing h3 a:hover {
@@ -689,6 +690,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
+  padding: 2rem 0;
   justify-content: space-around;
 }
 
@@ -731,7 +733,7 @@ a:hover {
 
 #toEatSection a .doing h3 {
   text-decoration: none;
-  color: #000428;
+  color: #323447;
 }
 
 #toEatSection a:hover {
@@ -790,6 +792,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   height: 60vh;
+  margin: 1rem 0;
+  margin-left: 1rem;
 }
 
 .galTallLeft .carousel-indicators {
@@ -811,7 +815,7 @@ a:hover {
   flex-direction: column;
   height: 80vh;
   text-align: center;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .galRight img {
@@ -866,11 +870,6 @@ a:hover {
   width: 120%;
   margin-top: 0.5rem;
   margin-left: 2rem;
-}
-
-.galTallLeft {
-  margin: 1rem 0;
-  margin-left: 5rem;
 }
 
 .galTallLeft .carousel-item img {
@@ -1296,7 +1295,7 @@ a:hover {
 
   .galRight .galDesc {
     margin-left: 0rem !important;
-    margin-top: 0rem !important;
+    margin-top: 0rem;
   }
 
   .galTallLeft {
@@ -1579,6 +1578,10 @@ a:hover {
     padding: 11rem 1rem;
   }
 
+  .galRight .galDesc {
+    margin-top: 25px;
+  }
+
   .galTallLeft {
     margin: 0;
     margin-left: 0 !important;
@@ -1635,6 +1638,10 @@ a:hover {
     flex-direction: column;
     height: 169vh;
     margin: 3rem 0rem !important;
+  }
+
+  .regMain .iconsLinks a {
+    font-size: 1.5rem;
   }
 
   .regMain h1 {
@@ -1712,7 +1719,7 @@ a:hover {
   }
 
   .festMain {
-    margin: 17rem 1rem !important;
+    margin: 2rem 1rem !important;
   }
 
   .festMain h4 {
@@ -1720,11 +1727,15 @@ a:hover {
   }
 
   .festDescRight {
-    margin-left: 5rem;
+    margin-left: 1rem;
   }
 
   .festMain::before {
     bottom: -120% !important;
+  }
+
+  .festTime {
+    padding: 10px;
   }
 
   #googleMaps div {
@@ -1750,7 +1761,7 @@ a:hover {
   }
 
   .regMain .regP h4 {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .regContainer .regMain {
@@ -1761,8 +1772,12 @@ a:hover {
     height: 175vh !important;
   }
 
+  .regMain .iconsLinks a {
+    font-size: 1.5rem;
+  }
+
   #toDotoEatPage .welcome h1 {
-    margin: 8rem 0rem !important;
+    margin: 5rem 0rem !important;
     font-size: 5rem !important;
   }
 
@@ -1812,7 +1827,7 @@ a:hover {
   }
 
   .festMain {
-    margin: 17rem 1rem !important;
+    margin: 2rem 1rem !important;
   }
 
   .festMain h4 {

@@ -14,9 +14,11 @@ const festivities = () => {
             <div className="festContainer">
                 <div className="festMain">
                     <h1>Ruve & Terahje's Wedding</h1>
-                    <h4>September 25, 2021</h4>
-                    <h4>2649 E. 6th St. <br/>
-                        Tucson, AZ 85716</h4>
+                        <div className="festTime">
+                            <h4>September 25, 2021</h4>
+                            <h4>2649 E. 6th St. <br/>
+                                Tucson, AZ 85716</h4>
+                        </div>
                     <div className="festFull">
                         <div className="festTimeLeft">
                             <h3>4:15 PM</h3>
