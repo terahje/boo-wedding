@@ -299,7 +299,7 @@ a:hover {
 
 #registryPage {
   background-color: rgba(255, 255, 255, 0.8);
-  height: 160vh;
+  height: 100%;
 }
 
 #registryPage .backBtn {
@@ -1130,24 +1130,8 @@ a:hover {
     font-size: 20px !important;
   }
 
-  #toDoSection .toDo-container {
-    margin: 1rem;
-  }
-
-  #toEatSection .toEat-container {
-    margin: 1rem;
-  }
-
   #toDotoEatPage {
     height: 120vh;
-  }
-
-  #toEatSection {
-    height: 115vh;
-  }
-
-  #toDoSection {
-    height: 90vh;
   }
 
   .right__card {
@@ -1283,7 +1267,7 @@ a:hover {
   }
 
   #toDotoEatPage {
-    height: 100vh;
+    height: 58vh;
   }
 
   #toDoSection .doing {
@@ -1294,14 +1278,6 @@ a:hover {
   #toEatSection .doing {
     min-width: 280px;
     max-width: 280px;
-  }
-
-  #toDoSection {
-    height: 80vh;
-  }
-
-  #toEatSection {
-    height: 90vh;
   }
 
   /* Gallery page */
@@ -1678,14 +1654,6 @@ a:hover {
     margin: 18rem 0rem !important;
   }
 
-  #toDoSection {
-    height: 178vh !important;
-  }
-
-  #toEatSection {
-    height: 225vh !important;
-  }
-
   .doEatContainer {
     margin: 0px 0rem !important;
   }
@@ -1801,13 +1769,6 @@ a:hover {
     font-size: 5rem !important;
   }
 
-  #toDoSection {
-    height: 220vh !important;
-  }
-  #toEatSection {
-    height: 295vh !important;
-  }
-
   .doEatTable h1 {
     font-size: 2rem;
   }
@@ -1904,13 +1865,6 @@ a:hover {
   #toDotoEatPage .welcome h1 {
     margin: 16rem 0rem !important;
     font-size: 5rem !important;
-  }
-
-  #toDoSection {
-    height: 280vh !important;
-  }
-  #toEatSection {
-    height: 385vh !important;
   }
 
   .doEatTable h1 {
