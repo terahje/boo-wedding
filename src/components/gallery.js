@@ -27,22 +27,19 @@ const gallery = () => {
                 </Link>
              </div>
              <section id="fullGalPage">
-                 <GalLeft></GalLeft>
-                 
-               
+                 <GalLeft/>           
                 <div className="galRight">
                     <div className="galDesc">
                         <h1>Gallery</h1>
-                        <p>
-                            Our Gallery is a curatation of pictures collected over the years we've spent together.  
+                        
+                            <p>Our Gallery is a curatation of pictures collected over the years we've spent together.  
                             The groom's Best Friend/ Best Man, Devan Cobb, provided the couple's stunning engagement photos.  
                             The couple has also included photos from their adventures over the years.  They can't wait to share 
-                            this day with you all and to add more pictures as we celebrate together. See you all soon!
+                            this day with you all and to add more pictures as we celebrate together. See you all soon!</p>
                             <br/>
                             <h6>For prints of our enagement photos, click <a href="https://devanmichaelphotography.pixieset.com/ruveandterahje/" target="_blank">here</a>.</h6>
                             <h5>Love,</h5><br/>
                             <h3>Ruve & Terahje</h3> 
-                        </p>
                     </div>
                     <div className="galHorzRight">
                         <Carousel fade>
