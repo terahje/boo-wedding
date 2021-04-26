@@ -940,6 +940,12 @@ a:hover {
   margin-right: 10rem;
 }
 
+#googleMaps div {
+  width: 45vw !important;
+  height: 45vh !important;
+  margin-top: 5px;
+}
+
 .venDescTitle {
   display: flex;
   flex-direction: column;
@@ -956,12 +962,6 @@ a:hover {
 
 .venWords {
   margin-left: 4rem;
-}
-
-#googleMaps div {
-  width: 50vh !important;
-  height: 50vh !important;
-  margin-top: 1rem;
 }
 
 /* Venue page end */

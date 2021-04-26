@@ -3,8 +3,8 @@ import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 
 const mapStyles = {
   position: 'relative',
-  width: '50vh',
-  height: '50vh',
+  width: '45vw',
+  height: '45vh',
 };
 
 require('dotenv').config()
