@@ -1639,7 +1639,7 @@ a:hover {
   }
 
   #festPage {
-    height: 213vh !important;
+    height: 255vh !important;
   }
 
   .festMain h1 {
@@ -1647,11 +1647,15 @@ a:hover {
   }
 
   .festMain::before {
-    bottom: -130% !important;
+    bottom: -175% !important;
   }
 
   #venuePage {
     height: 324vh !important;
+  }
+
+  #venDesc .venDescTitle h1 {
+    letter-spacing: -1.1px;
   }
 
   .regMain h1 {
