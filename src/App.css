@@ -998,7 +998,7 @@ a:hover {
 
 #venDesc .venDescTitle h1 {
   font-family: 'Allura', cursive, sans-serif;
-  letter-spacing: 0.01rem;
+  font-weight: 600;
   font-size: 6rem;
 }
 
@@ -1652,10 +1652,6 @@ a:hover {
 
   #venuePage {
     height: 324vh !important;
-  }
-
-  #venDesc .venDescTitle h1 {
-    letter-spacing: -1.1px;
   }
 
   .regMain h1 {
