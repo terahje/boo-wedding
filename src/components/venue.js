@@ -30,7 +30,7 @@ const venue = () => {
                     <div className="venWords">
                      <div className="venDescTitle">
                          <h4>We're happy to be going with:</h4>
-                         <h1>Amore Events Tucson</h1>
+                         <h1 className="shimmer">Amore Events Tucson</h1>
                      </div>
                      
                      <p>
