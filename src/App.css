@@ -1639,7 +1639,7 @@ a:hover {
   }
 
   #festPage {
-    height: 255vh !important;
+    height: 235vh !important;
   }
 
   .festMain h1 {
@@ -1647,7 +1647,7 @@ a:hover {
   }
 
   .festMain::before {
-    bottom: -175% !important;
+    bottom: -195% !important;
   }
 
   #venuePage {
