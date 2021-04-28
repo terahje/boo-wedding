@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-// import ourPic from '../assets/images/R&Tovershoulder.jpg'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 const festivities = () => {
     return (
         <section id="festPage">
             <div className="backBtn">
                 <Link to="/">
-                ← Back to Home
+                    <FontAwesomeIcon icon={['fas', 'hand-point-left']}/> Back to Home
                 </Link>
              </div>
 

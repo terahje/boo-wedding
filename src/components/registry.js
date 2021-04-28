@@ -8,7 +8,7 @@ const registry = () => {
         <section id="registryPage">
             <div className="backBtn">
                 <Link to="/">
-                ← Back to Home
+                    <FontAwesomeIcon icon={['fas', 'hand-point-left']}/> Back to Home
                 </Link>
              </div>
             <div className="regContainer">

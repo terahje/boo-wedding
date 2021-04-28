@@ -17,13 +17,14 @@ import RnTwedSea from '../assets/images/R&TweddingSea.jpg'
 import RnTxmasTree from '../assets/images/R&TxmasTree.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 import GalLeft from '../components/galleryLeft'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 const gallery = () => {
     return (
         <section id="galleryPage">
             <div className="backBtn">
                 <Link to="/">
-                ← Back to Home
+                    <FontAwesomeIcon icon={['fas', 'hand-point-left']}/> Back to Home
                 </Link>
              </div>
              <div id="fullGalPage">

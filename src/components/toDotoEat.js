@@ -6,6 +6,7 @@ import aMount from '../assets/images/aMount.jpg'
 import burro from '../assets/images/burro-small.jpg'
 import canes from '../assets/images/canes.jpg'
 import guadSalsa from '../assets/images/guadSalsa.jpg'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 const toDotoEat = () => {
     return (
@@ -13,7 +14,7 @@ const toDotoEat = () => {
              <section id="toDotoEatPage">
                 <div className="backBtn">
                     <Link to="/">
-                    ← Back to Home
+                        <FontAwesomeIcon icon={['fas', 'hand-point-left']}/> Back to Home
                     </Link>
                 </div>
 

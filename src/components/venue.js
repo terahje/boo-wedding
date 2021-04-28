@@ -2,13 +2,15 @@ import React from 'react'
 import { Link } from "react-router-dom"
 import Venue from '../assets/images/venue.jpg'
 import GoogleApiWrapper from '../components/googleMap'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+
 
 const venue = () => {
     return (
         <section id="venuePage">
             <div className="backBtn">
                 <Link to="/">
-                ← Back to Home
+                    <FontAwesomeIcon icon={['fas', 'hand-point-left']}/> Back to Home
                 </Link>
              </div>
              
