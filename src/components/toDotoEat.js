@@ -64,7 +64,7 @@ const toDotoEat = () => {
                         We emplore you to try the local mexican resturants either dining in or take out.  Our top choices 
                         for dining out would be <em>BK Carne Asada & Hot Dogs</em> or <em>El Guero Canelo</em>.  Their Carne Asada is a must try.  
                         With dine in options slowing coming back, our top choices our <em>Guadalajara</em>, <em>Poco y Moms</em>, and <em>El Charro Café</em>.  
-                        And, if there is any more room left in your wooden leg 😉, the fast food options are endless!  Just driving around you will 
+                        And, if there is any more room left in your wooden leg, the fast food options are endless!  Just driving around you will 
                         most likely find your favorite, but some things to try that aren't in Pennsylvania include <em>Raising Canes</em>, and <em>In-n-Out</em>.  
                         Raising Canes is easily one of our places to go, and we assure you the food in Tucson may be your favorite part of this trip.  
                         Its ok, we understand. 😁
