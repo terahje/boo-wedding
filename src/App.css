@@ -39,6 +39,15 @@
 
 /* shimmer CSS end */
 
+/* Navigation effect */
+header a:active {
+  transform: scale(0.96);
+}
+
+.backBtn:active {
+  transform: scale(0.99);
+}
+
 /* landing page  */
 #landing {
   height: 95vh;
@@ -374,6 +383,7 @@ a:hover {
   background-color: rgba(114, 114, 114, 0.3);
   border-radius: 5px;
   max-width: 940px;
+  box-shadow: 30px 0 40px rgba(0, 0, 0, 0.2), -30px 0 40px rgba(0, 0, 0, 0.2);
 }
 
 .regMain h1 {
@@ -388,14 +398,24 @@ a:hover {
 .regMain .iconsLinks {
   display: flex;
   flex-direction: column;
+  width: 48%;
+  padding: 2rem;
+  align-items: center;
+  align-self: center;
+  border-radius: 50px;
 }
 
 .regMain .iconsLinks a {
   color: rgba(146, 36, 36, 0.822);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
   font-size: 2rem;
   font-family: 'Martel', sans-serif;
   margin: 15px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  padding: 1rem 2.5rem;
   text-decoration: none;
+  transition: 0.4s ease;
 }
 
 .regMain .iconsLinks a:nth-child(1) {
@@ -403,12 +423,22 @@ a:hover {
 }
 .regMain .iconsLinks a:nth-child(2) {
   animation: h3anime 3s ease;
+  padding: 1rem 3rem;
+}
+
+.regMain .iconsLinks a::before {
+  transform: scale(1);
+}
+.regMain .iconsLinks a:active {
+  transform: scale(0.96);
 }
 
 .regMain .iconsLinks a:hover {
   color: #fff;
-  text-decoration: underline;
   cursor: pointer;
+  transition: 0.4s ease;
+  box-shadow: 0 0 5px 1px rgb(255, 255, 255);
+  transform: scale(1.05);
 }
 
 .regMain .regP h4 {
@@ -422,6 +452,10 @@ a:hover {
 .regMain img {
   margin-top: 1.2rem;
   border-radius: 5px;
+}
+
+.fa-tag {
+  margin-right: 0.5rem;
 }
 
 /* registry page end */
@@ -475,6 +509,7 @@ a:hover {
   left: 20%;
   opacity: 0.3;
   border-radius: 5px;
+  box-shadow: 30px 0 40px rgba(0, 0, 0, 0.5), -30px 0 40px rgba(0, 0, 0, 0.5);
 }
 
 .festMain h1 {
@@ -968,6 +1003,8 @@ a:hover {
   flex-direction: column;
   align-content: center;
   align-items: center;
+  box-shadow: 30px 0 40px rgba(0, 0, 0, 0.2), -30px 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 .venTitle h1 {
@@ -1395,6 +1432,10 @@ a:hover {
     height: 130vh;
   }
 
+  .regMain .iconsLinks a:nth-child(2) {
+    padding: 1.2rem 3rem;
+  }
+
   .demo-layout-transparent .mdl-layout__header,
   .demo-layout-transparent .mdl-layout__drawer-button {
     color: rgb(206, 0, 0) !important;
@@ -1508,7 +1549,18 @@ a:hover {
   }
 
   #registryPage {
-    height: 100vh;
+    height: auto;
+  }
+
+  .fa-2x {
+    font-size: 1em;
+  }
+  .regMain .iconsLinks a {
+    font-size: 1.5rem;
+  }
+
+  .regMain .iconsLinks a:nth-child(2) {
+    padding: 1.2rem 1rem;
   }
 
   .demo-layout-transparent .mdl-layout__header,
@@ -1776,6 +1828,13 @@ a:hover {
 
   #venueCon {
     margin: 0px 1rem;
+    box-shadow: none;
+  }
+
+  #googleMaps div {
+    width: 90vw !important;
+    height: 45vh !important;
+    margin-top: 0.5rem;
   }
 
   #venuePage {
@@ -1801,6 +1860,10 @@ a:hover {
     margin: 3rem 0rem !important;
   }
 
+  .regMain .iconsLinks {
+    width: 100%;
+  }
+
   .regMain .iconsLinks a {
     font-size: 1.5rem;
   }
@@ -1814,7 +1877,7 @@ a:hover {
   }
 
   #registryPage {
-    height: 147vh !important;
+    height: auto !important;
   }
 
   #toDotoEatPage .welcome h1 {
