@@ -30,7 +30,7 @@ const ourStory = () => {
                         <p>
                         After matching online, their first date was at Frankie’s for Philadelphia cheesesteaks. Terahje chose a restaurant to test 
                         Ruve’s willingness to eat a messy meal. She passed the test and ordered a Philly cheesesteak with Wiz cheese (just how native 
-                        Pennsylvanians order it)! They spent hours getting to know each other. Little did they know that we would spend almost every 
+                        Pennsylvanians order it)! They spent hours getting to know each other. Little did they know that they would spend almost every 
                         waking moment together after that. That was the first day of their forever. 
                         </p>
                     </div>

@@ -1,30 +1,34 @@
-# aws-thought
+# boo-wedding
 
 ![licenses](https://img.shields.io/badge/License-MIT_License-blue.svg)
 
 ## Description
+
 My first passion project, this application came to life using React to build the front-end pages. A wedding website for my forthcoming wedding, each page is to share our story with our loved ones. Utilizing the Rumes flip countdown npm package to add a flip-style countdown is one of my favorite outcomes of a vision I was unsure how to execute. The gallery is another page where the idea and execution married wonderfully, using React Bootstrap's carousel component to showcase multiple pictures as a slideshow with clickable buttons. The last point of mention would be the implementation of flex to control the layout of the pages.
 
 [Link to deployed Website](http://rtg-wedding.herokuapp.com)
 
-
 ## Table of Contents
+
 [Technologies](#technologies)<br>
 [Usage](#usage)<br>
 [License](#license)<br>
 [Questions](#questions)<br>
-***
-## Technologies
-* Node
-* React
-* JavaScript
-* CSS3
-* React Bootstrap
-* React MDL
-* Rumess/react-flip-countdown
 
+---
+
+## Technologies
+
+- Node
+- React
+- JavaScript
+- CSS3
+- React Bootstrap
+- React MDL
+- Rumess/react-flip-countdown
 
 ## Usage
+
 Landing page for our wedding website.
 ![](/assets/images/landingP.jpg)
 Gallery page with two carousels to shuffle our pictures.
@@ -35,7 +39,9 @@ A page dedicated for the out of state visiters we will have.
 ![](/assets/images/todoP.jpg)
 
 ## License
+
 ### This license is covered under the following license(s):
+
 MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -57,7 +63,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Questions :question:
+
 For further questions on this project or future collaboration contact me at:<br>
-* GitHub: [terahje](https://github.com/terahje)
-* Email: terahje.dev@gmail.com
-* Repository link: [Boo Wedding](https://github.com/terahje/boo-wedding)
+
+- GitHub: [terahje](https://github.com/terahje)
+- Email: terahje.dev@gmail.com
+- Repository link: [Boo Wedding](https://github.com/terahje/boo-wedding)
