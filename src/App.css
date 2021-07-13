@@ -164,7 +164,7 @@ header a:active {
 }
 
 .mdl-layout__drawer-button:hover {
-  background-color: rgba(0, 23, 43, 0.2) !important;
+  background-color: #fff !important;
   cursor: pointer;
   color: #000428;
   border-radius: 10px;
@@ -211,17 +211,20 @@ header link .nav-color {
   height: fit-content;
   width: 100%;
 }
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-//      your background is light. */
-  color: white;
+
+@keyframes colors2 {
+  from {
+    background-color: #000428;
+  }
+  to {
+    background-color: red;
+  }
 }
 
-.mdl-layout__drawer-button:hover {
-  background-color: rgba(180, 180, 180, 0.1);
-  border-radius: 10px;
-  cursor: pointer;
+.mdl-layout__drawer-button {
+  background-color: #000428;
+  border-radius: 0.5rem 2rem;
+  animation: colors2 3s infinite 30s ease-in-out;
 }
 
 /* nav section end  */
@@ -1438,9 +1441,8 @@ a:hover {
 
   .demo-layout-transparent .mdl-layout__header,
   .demo-layout-transparent .mdl-layout__drawer-button {
-    color: rgb(206, 0, 0) !important;
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 5px;
+    background-color: #000428;
+    border-radius: 0.5rem 2rem;
   }
 
   .backBtn {
@@ -1563,11 +1565,20 @@ a:hover {
     padding: 1.2rem 1rem;
   }
 
+  @keyframes colors2 {
+    from {
+      color: #000428;
+    }
+    to {
+      color: red;
+    }
+  }
+
   .demo-layout-transparent .mdl-layout__header,
   .demo-layout-transparent .mdl-layout__drawer-button {
-    color: rgb(206, 0, 0) !important;
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 5px;
+    background-color: #000428;
+    border-radius: 0.5rem 2rem;
+    animation: colors2 3s infinite;
   }
 
   #toDotoEatPage {
